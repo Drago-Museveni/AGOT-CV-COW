@@ -1,5 +1,20 @@
 ﻿# These buildings are only for showing background graphics, e.g. the walls around holdings
 
+red_keep_custom = { #Additional Models & Special Buildings check
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_KL_SouthWalls_new_mesh"
+	}
+
+	is_enabled = {
+#		barony = title:b_the_red_keep
+		has_building = seven_gates_01
+	}
+
+}
+
 ruined_castle_black_01 = {
 	is_graphical_background = yes
 

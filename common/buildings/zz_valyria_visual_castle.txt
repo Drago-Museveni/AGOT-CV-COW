@@ -871,6 +871,14 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_bear }
 	}
+	
+	asset = {
+		type = pdxmesh
+		name = "planky_town_mesh"		
+		illustration = @holding_illustration_plankytown
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_plankytown }
+	}
 
 	can_construct_potential = {
 		barony_cannot_construct_holding = no
@@ -1835,6 +1843,14 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_bear }
 	}
+	
+	asset = {
+		type = pdxmesh
+		name = "planky_town_mesh"		
+		illustration = @holding_illustration_plankytown
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_plankytown }
+	}
 
 	
 	can_construct_potential = {
@@ -2796,6 +2812,14 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_bear }
 	}
+	
+	asset = {
+		type = pdxmesh
+		name = "planky_town_mesh"		
+		illustration = @holding_illustration_plankytown
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_plankytown }
+	}
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -3743,6 +3767,14 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_bear }
 	}
+	
+	asset = {
+		type = pdxmesh
+		name = "planky_town_mesh"		
+		illustration = @holding_illustration_plankytown
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_plankytown }
+	}
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -4464,6 +4496,14 @@ castle_05 = {
 		graphical_regions = { graphical_bear }
 	}
 
+	asset = {
+		type = pdxmesh
+		name = "planky_town_mesh"		
+		illustration = @holding_illustration_plankytown
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_plankytown }
+	}
+
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -5143,6 +5183,14 @@ castle_06 = {
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_bear }
+	}
+
+	asset = {
+		type = pdxmesh
+		name = "planky_town_mesh"		
+		illustration = @holding_illustration_plankytown
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_plankytown }
 	}
 
 	can_construct_potential = {
@@ -5834,6 +5882,14 @@ castle_07 = {
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_bear }
+	}
+	
+	asset = {
+		type = pdxmesh
+		name = "planky_town_mesh"		
+		illustration = @holding_illustration_plankytown
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_plankytown }
 	}
 
 	can_construct_potential = {
