@@ -1,0 +1,124 @@
+﻿##########
+# Hightide
+##########
+
+agot_hightide_01 = {
+
+	construction_time = very_slow_construction_time
+	
+	asset = {
+		type = pdxmesh
+		name = "hightide_1_mesh"
+	}
+	
+
+	type_icon = "icon_hightide.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		trigger_if = {
+			limit = {
+				NOT = { scope:holder = county.holder }
+			}
+			county = { holder.dynasty = dynasty:dynn_Velaryon }
+			scope:holder = { dynasty = dynasty:dynn_Velaryon }
+		}
+		trigger_else = {
+			scope:holder = { dynasty = dynasty:dynn_Velaryon }
+		}
+		scope:holder = { prestige_level >= 5 }
+	}
+
+	cost_gold = 750
+
+	province_modifier = {
+		monthly_income = 5
+		fort_level = 2
+	}
+
+	character_modifier = {
+		court_grandeur_baseline_add = 10
+		tax_mult = 0.1
+		legitimacy_gain_mult = 0.1
+		legitimacy_loss_mult = -0.1
+		owned_legend_spread_mult = 0.1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+	
+	
+	on_complete = {
+		if ={
+			limit = {
+					NOR = {
+						has_building = castle_05
+						has_building = castle_06
+						has_building = castle_07
+				}
+			}		
+			add_building = castle_05
+		}
+	}
+}
+
+
+agot_ruins_hightide_02 = {
+	
+	asset = {
+		type = pdxmesh
+		name = "hightide_1_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+
+	can_construct = {
+		trigger_if = {
+			limit = {
+				NOT = { scope:holder = county.holder }
+			}
+			county = { holder.dynasty = dynasty:dynn_Velaryon }
+			scope:holder = { dynasty = dynasty:dynn_Velaryon }
+		}
+		trigger_else = {
+			scope:holder = { dynasty = dynasty:dynn_Velaryon }
+		}
+	}
+
+	construction_time = very_slow_construction_time
+
+	cost_gold = 1250
+
+	province_modifier = {
+		monthly_income = 5
+		fort_level = 2
+	}
+
+	character_modifier = {
+		court_grandeur_baseline_add = 10
+		tax_mult = 0.1
+		legitimacy_gain_mult = 0.1
+		legitimacy_loss_mult = -0.1
+		owned_legend_spread_mult = 0.1
+	}
+
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+	}
+
+	type = special
+
+	flag = travel_point_of_interest_economic
+}
