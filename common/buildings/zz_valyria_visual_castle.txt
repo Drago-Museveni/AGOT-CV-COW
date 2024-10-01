@@ -1,6 +1,4 @@
-﻿
-
-@holding_illustration_western = "gfx/interface/illustrations/holding_types/castle_western.dds"
+﻿@holding_illustration_western = "gfx/interface/illustrations/holding_types/castle_western.dds"
 @holding_illustration_mena = "gfx/interface/illustrations/holding_types/castle_mena.dds"
 @holding_illustration_india = "gfx/interface/illustrations/holding_types/castle_india.dds"
 @holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/castle_mediterranean.dds"
@@ -33,6 +31,9 @@
 @holding_illustration_hornvale= "gfx/interface/illustrations/holding_types/hornvale.dds"
 @holding_illustration_stonehelm= "gfx/interface/illustrations/holding_types/stonehelm.dds"
 @holding_illustration_blackhaven= "gfx/interface/illustrations/holding_types/blackhaven.dds"
+@holding_illustration_plankytown= "gfx/interface/illustrations/holding_types/plankytown.dds"
+@holding_illustration_karhold= "gfx/interface/illustrations/holding_types/karhold.dds"
+
 
 castle_01 = {
 	#AGOT Modified
@@ -878,6 +879,14 @@ castle_01 = {
 		illustration = @holding_illustration_plankytown
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_plankytown }
+	}
+
+	asset = {
+		type = pdxmesh
+		name = "karhold_mesh"		
+		illustration = @holding_illustration_karhold
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_karhold }
 	}
 
 	can_construct_potential = {
@@ -1852,6 +1861,13 @@ castle_02 = {
 		graphical_regions = { graphical_plankytown }
 	}
 
+	asset = {
+		type = pdxmesh
+		name = "karhold_mesh"		
+		illustration = @holding_illustration_karhold
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_karhold }
+	}
 	
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -2821,6 +2837,14 @@ castle_03 = {
 		graphical_regions = { graphical_plankytown }
 	}
 
+	asset = {
+		type = pdxmesh
+		name = "karhold_mesh"		
+		illustration = @holding_illustration_karhold
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_karhold }
+	}
+
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -3775,6 +3799,14 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_plankytown }
 	}
+	
+	asset = {
+		type = pdxmesh
+		name = "karhold_mesh"		
+		illustration = @holding_illustration_karhold
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_karhold }
+	}
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -4502,6 +4534,13 @@ castle_05 = {
 		illustration = @holding_illustration_plankytown
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_plankytown }
+	}
+	asset = {
+		type = pdxmesh
+		name = "karhold_mesh"		
+		illustration = @holding_illustration_karhold
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_karhold }
 	}
 
 	can_construct_potential = {

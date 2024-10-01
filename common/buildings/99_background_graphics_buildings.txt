@@ -292,7 +292,8 @@ walls_00 = {
 			barony = title:b_ironrath
 			barony = title:b_wynegarde
 			barony = title:b_mormont_keep
-
+			barony = title:b_karhold
+			# barony = title:b_plankytown
 		}
 	}
 }
