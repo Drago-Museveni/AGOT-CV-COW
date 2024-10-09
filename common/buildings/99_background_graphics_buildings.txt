@@ -1,4 +1,4 @@
-﻿# These buildings are only for showing background graphics, e.g. the walls around holdings
+﻿#These buildings are only for showing background graphics, e.g. the walls around holdings
 
 ruined_castle_black_01 = {
 	is_graphical_background = yes
