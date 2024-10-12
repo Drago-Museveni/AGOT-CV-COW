@@ -592,9 +592,16 @@ castle_01 = {
 	asset = {
 		type = pdxmesh
 		name = "empty_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_valyria_1 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "valyrian_castle_01_mesh"
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_valyria }
 	}
 
     ### Harrenhal ###
@@ -1011,6 +1018,7 @@ castle_01 = {
 			#		ep3_increase_resistance_effect = { AMOUNT = harrying_medium_increase_value }
 			#	}
 			#}
+
 		}
 	}
 	
@@ -1585,9 +1593,16 @@ castle_02 = {
 	asset = {
 		type = pdxmesh
 		name = "empty_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_valyria_1 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "valyrian_castle_02_mesh"
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_valyria }
 	}
     ### Harrenhal ###
 	asset = {
@@ -2557,9 +2572,16 @@ castle_03 = {
 	asset = {
 		type = pdxmesh
 		name = "empty_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_valyria_1 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "valyrian_castle_03_mesh"
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_valyria }
 	}
     ### Harrenhal ###
 	asset = {
@@ -3515,9 +3537,16 @@ castle_04 = {
 	asset = {
 		type = pdxmesh
 		name = "empty_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_valyria_1 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "valyrian_castle_04_mesh"
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_valyria }
 	}
     ### Harrenhal ###
 	asset = {
@@ -4279,9 +4308,16 @@ castle_05 = {
 	asset = {
 		type = pdxmesh
 		name = "empty_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_valyria_1 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "valyrian_castle_05_mesh"
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_valyria }
 	}
 	### Harrenhal ###
 	asset = {
@@ -5018,9 +5054,16 @@ castle_06 = {
 	asset = {
 		type = pdxmesh
 		name = "empty_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_valyria_1 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "valyrian_castle_05_mesh"
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_valyria }
 	}
     
 	### Harrenhal ###
@@ -5765,9 +5808,16 @@ castle_07 = {
 	asset = {
 		type = pdxmesh
 		name = "empty_mesh"
-		illustration = @holding_illustration_mediterranean
+		illustration = @holding_illustration_constantinople
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_regions = { graphical_valyria_1 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "valyrian_castle_05_mesh"
+		illustration = @holding_illustration_byzantine
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		graphical_regions = { graphical_valyria }
 	}
     
 	### Harrenhal ###

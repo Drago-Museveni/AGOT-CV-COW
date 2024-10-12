@@ -255,8 +255,8 @@ walls_00 = {
 			# has_building_or_higher = "roman_wall_of_lugo_01"
 			#AGOT Added
 			has_holding_type = ruin_holding
-			county = title:c_valyria
-			#barony = title:b_valyria_1
+#			county = title:c_valyria
+			empire = title:e_valyria
 						# this = province:4153	
 			barony = title:b_visenyas_hill
 			has_holding_type = ruin_holding
@@ -331,6 +331,7 @@ walls_01 = {
 			"western_walls_01_a_mesh"
 			"western_walls_01_b_mesh"
 		}
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india }
 	}
 
 	#AGOT Added, Riverlands
@@ -443,7 +444,7 @@ walls_01 = {
 
 		}
 		#AGOT Disabled
-		#graphical_regions = { graphical_mena }
+		#graphical_regions = { graphical_mena graphical_steppe }
 	}
 
 	asset = {
@@ -526,6 +527,7 @@ walls_02 = {
 
 	asset = {
 		type = pdxmesh
+		graphical_regions = { graphical_western graphical_mediterranean graphical_india }
 		names = {
 			"western_walls_02_a_mesh"
 			"western_walls_02_a_mesh"
@@ -634,7 +636,7 @@ walls_02 = {
 	asset = {
 		type = pdxmesh
 		#AGOT Modified
-		# graphical_regions = { graphical_mena }
+		# graphical_regions = { graphical_mena graphical_steppe }
 		#AGOT Added
 		#graphical_cultures = { mena_building_gfx }
 		graphical_cultures = { mena_building_gfx norse_mena_building_gfx indian_mena_building_gfx mediterranean_mena_building_gfx western_mena_building_gfx }
@@ -680,9 +682,20 @@ walls_02 = {
 		requires_dlc_flag = legacy_of_persia
 		graphical_cultures = { iranian_building_gfx }
 		#AGOT Disabled
-		# graphical_regions = { graphical_mena graphical_india }
+		# graphical_regions = { graphical_mena graphical_india graphical_steppe }
 		names = {
 			"fp3_building_persian_walls_02_a_01_mesh" 
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = roads_to_power
+		graphical_cultures = { byzantine_building_gfx }
+		#AGOT Disabled
+		# graphical_regions = { graphical_mediterranean }
+		names = {
+			"ep3_byzantine_walls_02_mesh" 
 		}
 	}
 
@@ -724,7 +737,7 @@ walls_03 = {
 	asset = {
 		type = pdxmesh
 		#AGOT Disabled
-		#graphical_regions = { graphical_western graphical_steppe }
+		#graphical_regions = { graphical_western }
 		names = {
 			"western_walls_03_a_mesh"
 			"western_walls_03_a_mesh"
@@ -836,7 +849,7 @@ walls_03 = {
 	asset = {
 		type = pdxmesh
 		#AGOT Modified
-		# graphical_regions = { graphical_mena }
+		# graphical_regions = { graphical_mena graphical_steppe }
 		#AGOT Added
 		#graphical_cultures = { mena_building_gfx }
 		graphical_cultures = { mena_building_gfx norse_mena_building_gfx indian_mena_building_gfx mediterranean_mena_building_gfx western_mena_building_gfx }
@@ -873,11 +886,22 @@ walls_03 = {
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
-		graphical_cultures = { iranian_building_gfx }
+		graphical_cultures = { iranian_building_gfx steppe_building_gfx }
 		#AGOT Disabled
-		# graphical_regions = { graphical_mena graphical_india }
+		# graphical_regions = { graphical_mena graphical_india graphical_steppe }
 		names = {
 			"fp3_building_persian_walls_03_a_01_mesh"  
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = roads_to_power
+		graphical_cultures = { byzantine_building_gfx }
+		#AGOT Disabled
+		# graphical_regions = { graphical_mediterranean }
+		names = {
+			"ep3_byzantine_walls_03_mesh" 
 		}
 	}
 
@@ -922,7 +946,7 @@ walls_04 = {
 	asset = {
 		type = pdxmesh
 		#AGOT Disabled
-		# graphical_regions = { graphical_western graphical_steppe }
+		# graphical_regions = { graphical_western }
 		names = {
 			"western_walls_04_a_mesh"
 			"western_walls_04_a_mesh"
@@ -1034,7 +1058,7 @@ walls_04 = {
 	asset = {
 		type = pdxmesh
 		#AGOT Modified
-		# graphical_regions = { graphical_mena }
+		# graphical_regions = { graphical_mena graphical_steppe }
 		#AGOT Added
 		#graphical_cultures = { mena_building_gfx }
 		graphical_cultures = { mena_building_gfx norse_mena_building_gfx indian_mena_building_gfx mediterranean_mena_building_gfx western_mena_building_gfx }
@@ -1071,11 +1095,22 @@ walls_04 = {
 	asset = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
-		graphical_cultures = { iranian_building_gfx }
+		graphical_cultures = { iranian_building_gfx steppe_building_gfx }
 		#AGOT Disabled
-		# graphical_regions = { graphical_mena graphical_india }
+		# graphical_regions = { graphical_mena graphical_india graphical_steppe }
 		names = {
 			"fp3_building_persian_walls_04_a_01_mesh" 
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = roads_to_power
+		graphical_cultures = { byzantine_building_gfx }
+		#AGOT Disabled
+		# graphical_regions = { graphical_mediterranean }
+		names = {
+			"ep3_byzantine_walls_04_mesh" 
 		}
 	}
 
