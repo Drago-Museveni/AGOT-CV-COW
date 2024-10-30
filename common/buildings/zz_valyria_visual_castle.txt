@@ -34,7 +34,7 @@
 @holding_illustration_stonehelm= "gfx/interface/illustrations/holding_types/stonehelm.dds"
 @holding_illustration_blackhaven= "gfx/interface/illustrations/holding_types/blackhaven.dds"
 @holding_illustration_karhold= "gfx/interface/illustrations/holding_types/karhold.dds"
-
+@holding_illustration_runestone= "gfx/interface/illustrations/holding_types/runestone.dds"
 
 castle_01 = {
 	#AGOT Modified
@@ -891,6 +891,13 @@ castle_01 = {
 		# graphical_regions = { graphical_karhold }
 		provinces = { 247 }
 	}
+	asset = {
+		type = pdxmesh
+		name = "runestone_mesh"		
+		illustration = @holding_illustration_runestone
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2455 }
+	}
 
 	can_construct_potential = {
 		barony_cannot_construct_holding = no
@@ -1018,7 +1025,6 @@ castle_01 = {
 			#		ep3_increase_resistance_effect = { AMOUNT = harrying_medium_increase_value }
 			#	}
 			#}
-
 		}
 	}
 	
@@ -1890,6 +1896,13 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_karhold }
 		provinces = { 247 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "runestone_mesh"		
+		illustration = @holding_illustration_runestone
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2455 }
 	}
 
 	
@@ -2870,6 +2883,13 @@ castle_03 = {
 		# graphical_regions = { graphical_karhold }
 		provinces = { 247 }
 	}
+	asset = {
+		type = pdxmesh
+		name = "runestone_mesh"		
+		illustration = @holding_illustration_runestone
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2455 }
+	}
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -3835,6 +3855,13 @@ castle_04 = {
 		# graphical_regions = { graphical_karhold }
 		provinces = { 247 }
 	}
+	asset = {
+		type = pdxmesh
+		name = "runestone_mesh"		
+		illustration = @holding_illustration_runestone
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2455 }
+	}
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -4606,6 +4633,13 @@ castle_05 = {
 		# graphical_regions = { graphical_karhold }
 		provinces = { 247 }
 	}
+	asset = {
+		type = pdxmesh
+		name = "runestone_mesh"		
+		illustration = @holding_illustration_runestone
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2455 }
+	}
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -5352,6 +5386,13 @@ castle_06 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_karhold }
 		provinces = { 247 }
+	}
+	asset = {
+		type = pdxmesh
+		name = "runestone_mesh"		
+		illustration = @holding_illustration_runestone
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2455 }
 	}
 
 	can_construct_potential = {
@@ -6106,7 +6147,14 @@ castle_07 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_karhold }
 		provinces = { 247 }
-	}    
+	}
+	asset = {
+		type = pdxmesh
+		name = "runestone_mesh"		
+		illustration = @holding_illustration_runestone
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2455 }
+	}
 
 
 	can_construct_potential = {

@@ -9,7 +9,7 @@ ruined_castle_black_01 = {
 	}
 
 	is_enabled = {
-		barony = title:b_castle_black
+		this = province:5
 		has_holding_type = ruin_holding
 	}
 }
@@ -23,7 +23,7 @@ castle_black_00 = {
 	}
 
 	is_enabled = {
-		barony = title:b_castle_black
+		this = province:5
 		has_holding_type = castle_holding
 	}
 }
@@ -261,24 +261,25 @@ walls_00 = {
 			barony = title:b_visenyas_hill
 			has_holding_type = ruin_holding
 			barony = title:b_castamere
-			barony = title:b_oldstones
-			barony = title:b_the_bloody_gate
-			barony = title:b_starfall
-			barony = title:b_seagard_castle
-			barony = title:b_seagard
-			barony = title:b_moat_cailin
-			# barony = title:b_graced_castle
-			barony = title:b_the_hightower
-			barony = title:b_the_red_keep
-			barony = title:b_myr
-			barony = title:b_zobri_bastion
-			barony = title:b_cheesemonger_manse
-			barony = title:b_broad_arch
-			barony = title:b_ironrath
-			barony = title:b_wynegarde
-			barony = title:b_mormont_keep
-			barony = title:b_karhold
-			barony = title:b_ryamsport
+			this = province:3180
+			this = province:1737
+			this = province:2263
+			this = province:5257
+			this = province:1730
+			this = province:1729
+			this = province:1650
+			this = province:3493
+			this = province:4151
+			this = province:7559
+			this = province:7351
+			this = province:7712
+			this = province:4772
+			this = province:1027
+			this = province:4124
+			this = province:1636
+			this = province:247
+			this = province:4125
+			this = province:2455
 			# barony = title:b_plankytown
 		}
 	}
