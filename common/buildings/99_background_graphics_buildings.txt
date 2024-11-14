@@ -255,8 +255,9 @@ walls_00 = {
 			# has_building_or_higher = "roman_wall_of_lugo_01"
 			#AGOT Added
 			has_holding_type = ruin_holding
-#			county = title:c_valyria
 			empire = title:e_valyria
+			empire = title:e_lands_of_long_summer
+			empire = title:e_valyrian_freehold
 						# this = province:4153	
 			barony = title:b_visenyas_hill
 			has_holding_type = ruin_holding
