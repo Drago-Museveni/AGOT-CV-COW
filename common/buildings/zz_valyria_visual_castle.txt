@@ -897,6 +897,15 @@ castle_01 = {
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
+	} 	
+	### Fist of the First Men ###
+	asset = {
+		type = pdxmesh
+		name = "empty_mesh"
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		# graphical_regions = { graphical_dreadfort }
+		provinces = { 6028 }
 	}
 
 	can_construct_potential = {
@@ -1903,6 +1912,14 @@ castle_02 = {
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
+	} 	
+	### Fist of the First Men ###
+	asset = {
+		type = pdxmesh
+		name = "empty_mesh"
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 6028 }
 	}
 
 	
@@ -2889,6 +2906,15 @@ castle_03 = {
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
+	} 	
+	### Fist of the First Men ###
+	asset = {
+		type = pdxmesh
+		name = "empty_mesh"
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		# graphical_regions = { graphical_dreadfort }
+		provinces = { 6028 }
 	}
 
 	can_construct_potential = {
@@ -3861,6 +3887,15 @@ castle_04 = {
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
+	} 	
+	### Fist of the First Men ###
+	asset = {
+		type = pdxmesh
+		name = "empty_mesh"
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		# graphical_regions = { graphical_dreadfort }
+		provinces = { 6028 }
 	}
 
 	can_construct_potential = {
@@ -5393,6 +5428,15 @@ castle_06 = {
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
+	} 	
+	### Fist of the First Men ###
+	asset = {
+		type = pdxmesh
+		name = "empty_mesh"
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		# graphical_regions = { graphical_dreadfort }
+		provinces = { 6028 }
 	}
 
 	can_construct_potential = {
@@ -6154,6 +6198,15 @@ castle_07 = {
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
+	}  	
+	### Fist of the First Men ###
+	asset = {
+		type = pdxmesh
+		name = "empty_mesh"
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		# graphical_regions = { graphical_dreadfort }
+		provinces = { 6028 }
 	}
 
 
