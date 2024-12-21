@@ -258,8 +258,7 @@ walls_00 = {
 			empire = title:e_valyria
 			empire = title:e_lands_of_long_summer
 			empire = title:e_valyrian_freehold
-						# this = province:4153	
-			barony = title:b_visenyas_hill
+			this = province:4153	
 			has_holding_type = ruin_holding
 			barony = title:b_castamere
 			this = province:3180
@@ -314,8 +313,8 @@ walls_01_tribal = {
 			has_building_or_higher = "watchtowers_01"
 			#AGOT Added
 			has_building_or_higher = "building_moat_01"
-			# this = province:4153
-			barony = title:b_visenyas_hill
+			has_building_or_higher = "city_walls_01"
+			this = province:4153
 			#AGOT Disabled
 			# has_building_or_higher = "theodosian_walls_01"
 			# has_building_or_higher = "walls_of_benin_01"
@@ -504,6 +503,7 @@ walls_01 = {
 			has_building_or_higher = "watchtowers_01"
 			#AGOT Added
 			has_building_or_higher = "building_moat_01"
+			has_building_or_higher = "city_walls_01"
 		}
 		NOR = {
 			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
@@ -514,8 +514,8 @@ walls_01 = {
 			has_building_or_higher = "watchtowers_02"
 			#AGOT Added
 			has_building_or_higher = "building_moat_02"
-			# this = province:4153
-			barony = title:b_visenyas_hill
+			has_building_or_higher = "city_walls_02"
+			this = province:4153
 			#AGOT Disabled
 			# has_building_or_higher = "theodosian_walls_01"
 			# has_building_or_higher = "walls_of_benin_01"
@@ -714,6 +714,7 @@ walls_02 = {
 			has_building_or_higher = "watchtowers_02"
 			#AGOT Added
 			has_building_or_higher = "building_moat_02"
+			has_building_or_higher = "city_walls_02"
 		}
 		NOR = {
 			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
@@ -723,8 +724,8 @@ walls_02 = {
 			has_building_or_higher = "watchtowers_03"
 			#AGOT Added
 			has_building_or_higher = "building_moat_03"
-			# this = province:4153
-			barony = title:b_visenyas_hill
+			has_building_or_higher = "city_walls_03"
+			this = province:4153
 			#AGOT Disabled
 			# has_building_or_higher = "theodosian_walls_01"
 			# has_building_or_higher = "walls_of_benin_01"
@@ -922,6 +923,7 @@ walls_03 = {
 			has_building_or_higher = "watchtowers_03"
 			#AGOT Added
 			has_building_or_higher = "building_moat_03"
+			has_building_or_higher = "city_walls_03"
 			#AGOT Disabled
 			# has_building_or_higher = "walls_of_benin_01"
 			# has_building_or_higher = "walls_of_genoa_01"
@@ -935,8 +937,8 @@ walls_03 = {
 			has_building_or_higher = "watchtowers_06"
 			#AGOT Added
 			has_building_or_higher = "building_moat_06"
-			# this = province:4153
-			barony = title:b_visenyas_hill
+			has_building_or_higher = "city_walls_04"
+			this = province:4153
 			#AGOT Disabled
 			# has_building_or_higher = "theodosian_walls_01"
 			# has_building_or_higher = "city_wall_of_toledo_01"
@@ -1129,6 +1131,7 @@ walls_04 = {
 			has_building_or_higher = "hill_forts_06"
 			has_building_or_higher = "ramparts_06"
 			has_building_or_higher = "watchtowers_06"
+			has_building_or_higher = "city_walls_04"
 			#AGOT Added
 			has_building_or_higher = "building_moat_06"
 			#AGOT Disabled

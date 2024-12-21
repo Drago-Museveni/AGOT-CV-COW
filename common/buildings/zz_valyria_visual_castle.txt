@@ -4285,7 +4285,7 @@ castle_05 = {
 	### MENA ###
 	asset = {
 		type = pdxmesh
-		name = "building_mena_castle_04_mesh"
+		name = "building_mena_castle_05_mesh"
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { mena_building_gfx }
@@ -4293,7 +4293,7 @@ castle_05 = {
 	### INDIAN ###
 	asset = {
 		type = pdxmesh
-		name = "building_indian_castle_04_mesh"
+		name = "building_indian_castle_05_mesh"
 		illustration = @holding_illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { indian_building_gfx }
@@ -4302,7 +4302,7 @@ castle_05 = {
 	### MEDITERRANEAN ###
 	asset = {
 		type = pdxmesh
-		name = "building_mediterranean_castle_04_mesh"
+		name = "building_mediterranean_castle_05_mesh"
 		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { mediterranean_building_gfx }
@@ -4311,7 +4311,7 @@ castle_05 = {
 	### FP1 Norse ###
 	asset = {
 		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mesh"
+		name = "fp1_building_norse_castle_05_mesh"
 		requires_dlc_flag = the_northern_lords
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
@@ -4321,7 +4321,7 @@ castle_05 = {
 	### FP2 Iberian ###
 	asset = {
 		type = pdxmesh
-		name = "fp2_building_iberian_castle_04_mesh"
+		name = "fp2_building_iberian_castle_05_mesh"
 		requires_dlc_flag = the_fate_of_iberia
 		illustration = @holding_illustration_iberian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/iberian_castle" soundparameter = { "Tier" = 3 } }
@@ -4331,7 +4331,7 @@ castle_05 = {
 	### FP3 Iranian ###
 	asset = {
 		type = pdxmesh
-		name = "fp3_building_persian_castle_04_a_01_mesh"
+		name = "fp3_building_persian_castle_05_mesh"
 		requires_dlc_flag = legacy_of_persia
 		illustration = @holding_illustration_iranian
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
@@ -4340,7 +4340,7 @@ castle_05 = {
 
 	asset = {
 		type = pdxmesh
-		name = "building_mena_castle_04_mesh"
+		name = "building_mena_castle_05_mesh"
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { iranian_building_gfx }
@@ -4362,7 +4362,7 @@ castle_05 = {
 		names = {
 			"agot_holding_castle_crannog_02_mesh"
 		}
-		illustration = @holding_illustration_old_norse
+		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { crannogman_building_gfx }
 	}
@@ -4674,6 +4674,15 @@ castle_05 = {
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
+	} 	
+	### Fist of the First Men ###
+	asset = {
+		type = pdxmesh
+		name = "empty_mesh"
+		illustration = @holding_illustration_norse
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		# graphical_regions = { graphical_dreadfort }
+		provinces = { 6028 }
 	}
 
 	can_construct_potential = {
