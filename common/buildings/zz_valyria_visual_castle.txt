@@ -4,6 +4,7 @@
 @holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/castle_mediterranean.dds"
 #AGOT Modified
 @holding_illustration_old_norse = "gfx/interface/illustrations/holding_types/fp1_castle_norse.dds"
+#AGOT Added
 @holding_illustration_norse = "gfx/interface/illustrations/holding_types/northern_castle.dds"
 @holding_illustration_iberian = "gfx/interface/illustrations/holding_types/fp2_castle_iberian.dds"
 @holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_castle_iranian.dds"
