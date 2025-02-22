@@ -38,6 +38,7 @@
 @holding_illustration_plankytown= "gfx/interface/illustrations/holding_types/plankytown.dds"
 @holding_illustration_karhold= "gfx/interface/illustrations/holding_types/karhold.dds"
 @holding_illustration_runestone= "gfx/interface/illustrations/holding_types/runestone.dds"
+@holding_illustration_evenfall= "gfx/interface/illustrations/holding_types/evenfall.dds"
 
 castle_01 = {
 	#AGOT Modified
@@ -1977,6 +1978,14 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_dreadfort }
 		provinces = { 6028 }
+	}
+	### Evenfall ###
+	asset = {
+		type = pdxmesh
+		name = "building_special_evenfall_mesh"
+		illustration = @holding_illustration_evenfall
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 4917 }
 	}
 
 	can_construct_potential = {
@@ -4042,6 +4051,14 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 6028 }
 	}
+	### Evenfall ###
+	asset = {
+		type = pdxmesh
+		name = "building_special_evenfall_mesh"
+		illustration = @holding_illustration_evenfall
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 4917 }
+	}
 
 	
 	can_construct_potential = {
@@ -6085,6 +6102,14 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_dreadfort }
 		provinces = { 6028 }
+	}
+	### Evenfall ###
+	asset = {
+		type = pdxmesh
+		name = "building_special_evenfall_mesh"
+		illustration = @holding_illustration_evenfall
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 4917 }
 	}
 
 	can_construct_potential = {
@@ -8356,6 +8381,14 @@ castle_04 = {
 		# graphical_regions = { graphical_dreadfort }
 		provinces = { 6028 }
 	}
+	### Evenfall ###
+	asset = {
+		type = pdxmesh
+		name = "building_special_evenfall_mesh"
+		illustration = @holding_illustration_evenfall
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 4917 }
+	}
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -10361,6 +10394,14 @@ castle_05 = {
 		# graphical_regions = { graphical_dreadfort }
 		provinces = { 6028 }
 	}
+	### Evenfall ###
+	asset = {
+		type = pdxmesh
+		name = "building_special_evenfall_mesh"
+		illustration = @holding_illustration_evenfall
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 4917 }
+	}
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -12334,6 +12375,14 @@ castle_06 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_dreadfort }
 		provinces = { 6028 }
+	}
+	### Evenfall ###
+	asset = {
+		type = pdxmesh
+		name = "building_special_evenfall_mesh"
+		illustration = @holding_illustration_evenfall
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 4917 }
 	}
 
 	can_construct_potential = {
@@ -14314,6 +14363,14 @@ castle_07 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_dreadfort }
 		provinces = { 6028 }
+	}
+	### Evenfall ###
+	asset = {
+		type = pdxmesh
+		name = "building_special_evenfall_mesh"
+		illustration = @holding_illustration_evenfall
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 4917 }
 	}
 
 

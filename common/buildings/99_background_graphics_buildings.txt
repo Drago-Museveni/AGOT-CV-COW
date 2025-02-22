@@ -282,6 +282,7 @@ walls_00 = {
 			this = province:4125
 			this = province:2455
 			this = province:6028
+			this = province:4917
 			has_building = agot_hightide_01
 			has_building = agot_ruins_hightide_02
 			# barony = title:b_plankytown
