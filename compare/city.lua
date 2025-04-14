@@ -1,11 +1,10 @@
-﻿@holding_illustration_western = "gfx/interface/illustrations/holding_types/city_western.dds"
+@holding_illustration_western = "gfx/interface/illustrations/holding_types/city_western.dds"
 @holding_illustration_india = "gfx/interface/illustrations/holding_types/city_india.dds"
 @holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/city_mediterranean.dds"
 @holding_illustration_mena = "gfx/interface/illustrations/holding_types/city_mena.dds"
 @holding_illustration_norse = "gfx/interface/illustrations/holding_types/fp1_city_norse.dds"
 @holding_illustration_iberian = "gfx/interface/illustrations/holding_types/fp2_city_iberian.dds"
 @holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_city_iranian.dds"
-@holding_illustration_plankytown = "gfx/interface/illustrations/holding_types/plankytown.dds"
 @holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/ep3_city_byzantine.dds"
 
 city_01 = {
@@ -1825,26 +1824,10 @@ city_01 = {
 	# 	graphical_cultures = { steppe_building_gfx }
 	# }
 
-	### VALYRIA ###
-	asset = {
-		type = pdxmesh
-		names = { "empty_mesh" }
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_valyria_1 }
-	}
-	asset = {
-		type = pdxmesh
-		names = { "valyrian_city_01_mesh" }
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_valyria graphical_lokiria graphical_lyria graphical_summer_lands graphical_telyria graphical_martivia graphical_smoking_shores }
-	}
-
 	can_construct_potential = {
 		barony_cannot_construct_holding = no
 	}
-	
+
 	can_construct = {
 		culture = {
 			has_innovation = innovation_city_planning
@@ -1852,13 +1835,13 @@ city_01 = {
 		# AGOT Added
 		agot_can_build_city_holdings = yes
 	}
-	
+
 	can_construct_showing_failures_only = {
 		building_requirement_tribal = no
 		building_requirement_tribal_holding_in_county = yes
 	}
 	cost_gold = main_building_tier_1_cost
-	
+
 	levy = poor_building_levy_tier_2
 	max_garrison = normal_building_max_garrison_tier_1
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_1
@@ -1885,7 +1868,7 @@ city_01 = {
 	}
 
 	county_culture_modifier = {
-		parameter = city_buildings_more_powerful		
+		parameter = city_buildings_more_powerful
 		development_growth_factor = 0.05
 	}
 
@@ -1919,7 +1902,7 @@ city_01 = {
 		parameter = city_holdings_more_dev
 		development_growth_factor = 0.1
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = coastal_holding_bonuses
 		is_coastal = yes
@@ -1931,28 +1914,17 @@ city_01 = {
 		is_coastal = yes
 		defender_holding_advantage = 2
 	}
-	
+
 	county_dynasty_modifier = {
 		county_holder_dynasty_perk = fp2_urbanism_legacy_1 # check if the dynasty of the county holder has a specific perk
-    	development_growth_factor = fp2_urbanism_legacy_1_bonus_value
-	}
-
-	province_culture_modifier = {
-		parameter = freehold_city_boost
-		tax_mult = 0.25
-		development_growth_factor = 0.05
-	}
-	county_culture_modifier = {
-		parameter = freehold_city_boost		
-		tax_mult = 0.25
-		development_growth_factor = 0.05
+		development_growth_factor = fp2_urbanism_legacy_1_bonus_value
 	}
 
 	flag = city
 	next_building = city_02
 
 	type_icon = "icon_building_guild_halls.dds"
-	
+
 	on_complete = {
 		county.holder = {
 			if = {
@@ -1977,7 +1949,7 @@ city_01 = {
 			}
 		}
 	}
-	
+
 	ai_value = {
 		base = 0
 		modifier = {
@@ -1985,7 +1957,7 @@ city_01 = {
 			scope:holder = {
 				domain_limit_available < 1
 			}
-		}		
+		}
 		modifier = {
 			factor = 0
 			scope:holder = {
@@ -3785,22 +3757,6 @@ city_02 = {
 	# 	graphical_cultures = { steppe_building_gfx }
 	# }
 
-	### VALYRIA ###
-	asset = {
-		type = pdxmesh
-		names = { "empty_mesh" }
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_valyria_1 }
-	}
-	asset = {
-		type = pdxmesh
-		names = { "valyrian_city_01_mesh" }
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_valyria graphical_lokiria graphical_lyria graphical_summer_lands graphical_telyria graphical_martivia graphical_smoking_shores }
-	}
-	
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -3813,10 +3769,10 @@ city_02 = {
 					}
 				}
 			}
-		culture = {
-			has_innovation = innovation_manorialism
+			culture = {
+				has_innovation = innovation_manorialism
+			}
 		}
-	}
 		trigger_else = {
 			culture = {
 				has_cultural_parameter = next_level_cities
@@ -3825,7 +3781,7 @@ city_02 = {
 
 	}
 	cost_gold = main_building_tier_2_cost
-	
+
 	levy = poor_building_levy_tier_4
 	max_garrison = normal_building_max_garrison_tier_2
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_2
@@ -3857,7 +3813,7 @@ city_02 = {
 		parameter = city_buildings_more_powerful
 		development_growth_factor = 0.1
 	}
-	
+
 	county_culture_modifier = {
 		parameter = city_buildings_less_control
 		#AGOT Modified
@@ -3888,7 +3844,7 @@ city_02 = {
 		parameter = city_holdings_more_dev
 		development_growth_factor = 0.2
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = coastal_holding_bonuses
 		is_coastal = yes
@@ -3903,22 +3859,12 @@ city_02 = {
 
 	county_dynasty_modifier = {
 		county_holder_dynasty_perk = fp2_urbanism_legacy_1 # check if the dynasty of the county holder has a specific perk
-    	development_growth_factor = fp2_urbanism_legacy_1_bonus_value
+		development_growth_factor = fp2_urbanism_legacy_1_bonus_value
 	}
-	province_culture_modifier = {
-		parameter = freehold_city_boost
-		tax_mult = 0.5
-		development_growth_factor = 0.1
-	}
-	county_culture_modifier = {
-		parameter = freehold_city_boost		
-		tax_mult = 0.5
-		development_growth_factor = 0.1
-	}
-	
+
 	flag = city
 	next_building = city_03
-	
+
 	on_complete = {
 		barony.holder = {
 			if = {
@@ -3948,7 +3894,7 @@ city_02 = {
 		modifier = {
 			add = 1
 			scope:holder.culture = { has_cultural_parameter = ai_more_likely_to_city }
-		}	
+		}
 		modifier = {
 			factor = 2
 			scope:holder.capital_province = this
@@ -5656,23 +5602,7 @@ city_03 = {
 	# 	soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mena_city" soundparameter = { "Tier" = 2 } }
 	# 	graphical_cultures = { steppe_building_gfx }
 	# }
-	
-	### VALYRIA ###
-	asset = {
-		type = pdxmesh
-		names = { "empty_mesh" }
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_valyria_1 }
-	}
-	asset = {
-		type = pdxmesh
-		names = { "valyrian_city_02_mesh" }
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_valyria graphical_lokiria graphical_lyria graphical_summer_lands graphical_telyria graphical_martivia graphical_smoking_shores }
-	}
-	
+
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -5685,10 +5615,10 @@ city_03 = {
 					}
 				}
 			}
-		culture = {
-			has_innovation = innovation_windmills
+			culture = {
+				has_innovation = innovation_windmills
+			}
 		}
-	}
 		trigger_else = {
 			culture = {
 				has_cultural_parameter = next_level_cities
@@ -5700,7 +5630,7 @@ city_03 = {
 	}
 	cost_gold = main_building_tier_3_cost
 	next_building = city_04
-	
+
 	levy = poor_building_levy_tier_6
 	max_garrison = normal_building_max_garrison_tier_3
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_3
@@ -5730,10 +5660,10 @@ city_03 = {
 	}
 
 	county_culture_modifier = {
-		parameter = city_buildings_more_powerful		
+		parameter = city_buildings_more_powerful
 		development_growth_factor = 0.15
 	}
-	
+
 	county_culture_modifier = {
 		parameter = city_buildings_less_control
 		#AGOT Modified
@@ -5764,7 +5694,7 @@ city_03 = {
 		parameter = city_holdings_more_dev
 		development_growth_factor = 0.3
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = coastal_holding_bonuses
 		is_coastal = yes
@@ -5779,21 +5709,11 @@ city_03 = {
 
 	county_dynasty_modifier = {
 		county_holder_dynasty_perk = fp2_urbanism_legacy_1 # check if the dynasty of the county holder has a specific perk
-    	development_growth_factor = fp2_urbanism_legacy_1_bonus_value
+		development_growth_factor = fp2_urbanism_legacy_1_bonus_value
 	}
-	province_culture_modifier = {
-		parameter = freehold_city_boost
-		tax_mult = 0.75
-		development_growth_factor = 0.15
-	}
-	county_culture_modifier = {
-		parameter = freehold_city_boost		
-		tax_mult = 0.75
-		development_growth_factor = 0.15
-	}
-	
+
 	flag = city
-	
+
 	on_complete = {
 		barony.holder = {
 			if = {
@@ -5823,7 +5743,7 @@ city_03 = {
 		modifier = {
 			add = 1
 			scope:holder.culture = { has_cultural_parameter = ai_more_likely_to_city }
-		}	
+		}
 		modifier = {
 			factor = 2
 			scope:holder.capital_province = this
@@ -7520,22 +7440,6 @@ city_04 = {
 	# 	graphical_cultures = { steppe_building_gfx }
 	# }
 	# }
-	
-	### VALYRIA ###
-	asset = {
-		type = pdxmesh
-		names = { "empty_mesh" }
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_valyria_1 }
-	}
-	asset = {
-		type = pdxmesh
-		names = { "valyrian_city_02_mesh" }
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_valyria graphical_lokiria graphical_lyria graphical_summer_lands graphical_telyria graphical_martivia graphical_smoking_shores }
-	}
 
 	can_construct_potential = {
 		building_requirement_tribal = no
@@ -7549,10 +7453,10 @@ city_04 = {
 					}
 				}
 			}
-		culture = {
-			has_innovation = innovation_cranes
+			culture = {
+				has_innovation = innovation_cranes
+			}
 		}
-	}
 		trigger_else = {
 			culture = {
 				has_cultural_parameter = next_level_cities
@@ -7564,7 +7468,7 @@ city_04 = {
 	}
 	cost_gold = main_building_tier_4_cost
 	next_building = city_05
-	
+
 	levy = poor_building_levy_tier_8
 	max_garrison = normal_building_max_garrison_tier_7
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_4
@@ -7593,10 +7497,10 @@ city_04 = {
 	}
 
 	county_culture_modifier = {
-		parameter = city_buildings_more_powerful		
+		parameter = city_buildings_more_powerful
 		development_growth_factor = 0.2
 	}
-	
+
 	county_culture_modifier = {
 		parameter = city_buildings_less_control
 		#AGOT Modified
@@ -7627,7 +7531,7 @@ city_04 = {
 		parameter = city_holdings_more_dev
 		development_growth_factor = 0.4
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = coastal_holding_bonuses
 		is_coastal = yes
@@ -7642,31 +7546,11 @@ city_04 = {
 
 	county_dynasty_modifier = {
 		county_holder_dynasty_perk = fp2_urbanism_legacy_1 # check if the dynasty of the county holder has a specific perk
-    	development_growth_factor = fp2_urbanism_legacy_1_bonus_value
+		development_growth_factor = fp2_urbanism_legacy_1_bonus_value
 	}
-	province_culture_modifier = {
-		parameter = freehold_city_boost
-		tax_mult = 1
-		development_growth_factor = 0.2
-	}
-	county_culture_modifier = {
-		parameter = freehold_city_boost		
-		tax_mult = 1.25
-		development_growth_factor = 0.2
-	}
-	province_culture_modifier = {
-		parameter = freehold_city_boost
-		tax_mult = 1
-		development_growth_factor = 0.25
-	}
-	county_culture_modifier = {
-		parameter = freehold_city_boost		
-		tax_mult = 1.25
-		development_growth_factor = 0.25
-	}
-	
+
 	flag = city
-	
+
 	on_complete = {
 		barony.holder = {
 			if = {
@@ -7696,7 +7580,7 @@ city_04 = {
 		modifier = {
 			add = 1
 			scope:holder.culture = { has_cultural_parameter = ai_more_likely_to_city }
-		}	
+		}
 		modifier = {
 			factor = 2
 			scope:holder.capital_province = this
@@ -9564,40 +9448,6 @@ city_05 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_steppe }
-	}
-
-	### VALYRIA ###
-	asset = {
-		type = pdxmesh
-		names = { "empty_mesh" }
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_valyria_1 }
-	}
-	asset = {
-		type = pdxmesh
-		names = { "valyrian_city_02_mesh" }
-		illustration = @holding_illustration_byzantine
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		graphical_regions = { graphical_valyria graphical_lokiria graphical_lyria graphical_summer_lands graphical_telyria graphical_martivia graphical_smoking_shores }
-	}
-
-	asset = {
-		type = pdxmesh
-		name = "fp3_building_persian_city_02_a_01_mesh"		
-		illustration = @holding_illustration_plankytown
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mena_city" soundparameter = { "Tier" = 3 } }
-		# graphical_regions = { graphical_plankytown }
-		provinces = { 4945 }
-	}
-
-	asset = {
-		type = pdxmesh
-		name = "empty_mesh"	
-		illustration = @holding_illustration_western
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/mediterranean_city" soundparameter = { "Tier" = 3 } }
-		# graphical_regions = { graphical_plankytown }
-		provinces = { 4125 }
 	}
 
 	can_construct_potential = {
