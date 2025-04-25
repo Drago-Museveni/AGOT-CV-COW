@@ -7,7 +7,7 @@
 #AGOT Added
 @holding_illustration_norse = "gfx/interface/illustrations/holding_types/northern_castle.dds"
 @holding_illustration_iberian= "gfx/interface/illustrations/holding_types/fp2_castle_iberian.dds"
-@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_castle_iranian.dds" 
+@holding_illustration_iranian = "gfx/interface/illustrations/holding_types/fp3_castle_iranian.dds"
 @holding_illustration_byzantine = "gfx/interface/illustrations/holding_types/ep3_castle_byzantine.dds"
 @holding_illustration_constantinople = "gfx/interface/illustrations/holding_types/ep3_castle_constantinople.dds"
 @holding_illustration_starfall= "gfx/interface/illustrations/holding_types/starfall.dds"
@@ -204,7 +204,7 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { mediterranean_ind_building_gfx }
 	}
-	
+
 	#AGOT Added, Mediterranean-MENA
 	asset = {
 		type = pdxmesh
@@ -600,7 +600,7 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_harrenhal }
 		provinces = { 1934 }
-	}	
+	}
 	### Hightide ###
 	asset = {
 		type = pdxmesh
@@ -609,7 +609,7 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_hightide }
 		provinces = { 4424 }
-	}	
+	}
 	### Starfall ###
 	asset = {
 		type = pdxmesh
@@ -618,7 +618,7 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_starfall }
 		provinces = { 5257 }
-	}	
+	}
 	### Seagard ###
 	asset = {
 		type = pdxmesh
@@ -820,7 +820,7 @@ castle_01 = {
 
 	asset = {
 		type = pdxmesh
-		name = "empty_mesh"		
+		name = "empty_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_castamere }
@@ -829,7 +829,7 @@ castle_01 = {
 
 	asset = {
 		type = pdxmesh
-		name = "empty_mesh"		
+		name = "empty_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_oldstones }
@@ -838,7 +838,7 @@ castle_01 = {
 
 	asset = {
 		type = pdxmesh
-		name = "broadarch_mesh"		
+		name = "broadarch_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_broadarch }
@@ -847,7 +847,7 @@ castle_01 = {
 
 	asset = {
 		type = pdxmesh
-		name = "building_special_ironrath_mesh"		
+		name = "building_special_ironrath_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_ironrath }
@@ -865,7 +865,7 @@ castle_01 = {
 
 	asset = {
 		type = pdxmesh
-		name = "bear_island_mesh"		
+		name = "bear_island_mesh"
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_bear }
@@ -873,7 +873,7 @@ castle_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "karhold_mesh"		
+		name = "karhold_mesh"
 		illustration = @holding_illustration_karhold
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_karhold }
@@ -881,11 +881,11 @@ castle_01 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "runestone_mesh"		
+		name = "runestone_mesh"
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
-	} 	
+	}
 	### Fist of the First Men ###
 	asset = {
 		type = pdxmesh
@@ -1051,7 +1051,7 @@ castle_01 = {
 			#}
 		}
 	}
-	
+
 	ai_value = {
 		base = 100
 		modifier = {
@@ -1240,7 +1240,7 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 1 } }
 		graphical_cultures = { mediterranean_ind_building_gfx }
 	}
-	
+
 	#AGOT Added, Mediterranean-MENA
 	asset = {
 		type = pdxmesh
@@ -1618,7 +1618,7 @@ castle_02 = {
 		illustration = @holding_illustration_old_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { crannogman_building_gfx }
-	}    
+	}
 
     ### Harrenhal ###
 	asset = {
@@ -1628,7 +1628,7 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_harrenhal }
 		provinces = { 1934 }
-	}	
+	}
 	### Hightide ###
 	asset = {
 		type = pdxmesh
@@ -1637,7 +1637,7 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_hightide }
 		provinces = { 4424 }
-	}	
+	}
 	### Starfall ###
 	asset = {
 		type = pdxmesh
@@ -1646,7 +1646,7 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_starfall }
 		provinces = { 5257 }
-	}	
+	}
 	### Seagard ###
 	asset = {
 		type = pdxmesh
@@ -1848,7 +1848,7 @@ castle_02 = {
 
 	asset = {
 		type = pdxmesh
-		name = "empty_mesh"		
+		name = "empty_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_castamere }
@@ -1857,7 +1857,7 @@ castle_02 = {
 
 	asset = {
 		type = pdxmesh
-		name = "empty_mesh"		
+		name = "empty_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_oldstones }
@@ -1866,7 +1866,7 @@ castle_02 = {
 
 	asset = {
 		type = pdxmesh
-		name = "broadarch_mesh"		
+		name = "broadarch_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_broadarch }
@@ -1875,7 +1875,7 @@ castle_02 = {
 
 	asset = {
 		type = pdxmesh
-		name = "building_special_ironrath_mesh"		
+		name = "building_special_ironrath_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_ironrath }
@@ -1893,7 +1893,7 @@ castle_02 = {
 
 	asset = {
 		type = pdxmesh
-		name = "bear_island_mesh"		
+		name = "bear_island_mesh"
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_bear }
@@ -1901,7 +1901,7 @@ castle_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "karhold_mesh"		
+		name = "karhold_mesh"
 		illustration = @holding_illustration_karhold
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_karhold }
@@ -1909,11 +1909,11 @@ castle_02 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "runestone_mesh"		
+		name = "runestone_mesh"
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
-	} 	
+	}
 	### Fist of the First Men ###
 	asset = {
 		type = pdxmesh
@@ -1950,7 +1950,7 @@ castle_02 = {
 		graphical_regions = { graphical_valyria graphical_lokiria graphical_lyria graphical_summer_lands graphical_telyria graphical_martivia graphical_smoking_shores }
 	}
 
-	
+
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
@@ -1959,10 +1959,10 @@ castle_02 = {
 			has_innovation = innovation_battlements
 		}
 	}
-	
+
 	cost_gold = main_building_tier_2_cost
 	next_building = castle_03
-	
+
 	levy = normal_building_levy_tier_4
 	max_garrison = good_building_max_garrison_tier_3
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_4
@@ -2050,9 +2050,9 @@ castle_02 = {
 				}
 			}
 		}
-		
+
 	}
-	
+
 	ai_value = {
 		base = 9
 		ai_general_building_modifier = yes
@@ -2247,7 +2247,7 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 2 } }
 		graphical_cultures = { mediterranean_ind_building_gfx }
 	}
-	
+
 	#AGOT Added, Mediterranean-MENA
 	asset = {
 		type = pdxmesh
@@ -2530,9 +2530,9 @@ castle_03 = {
 		graphical_cultures = { iberian_building_gfx }
 		#AGOT Disabled
 		#graphical_regions = { graphical_mediterranean }
-	
+
 	}
-	
+
 
 	### FP3 Iranian ###
 	asset = {
@@ -2625,7 +2625,7 @@ castle_03 = {
 		illustration = @holding_illustration_old_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { crannogman_building_gfx }
-	}    
+	}
 
     ### Harrenhal ###
 	asset = {
@@ -2635,7 +2635,7 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_harrenhal }
 		provinces = { 1934 }
-	}	
+	}
 	### Hightide ###
 	asset = {
 		type = pdxmesh
@@ -2644,7 +2644,7 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_hightide }
 		provinces = { 4424 }
-	}	
+	}
 	### Starfall ###
 	asset = {
 		type = pdxmesh
@@ -2653,7 +2653,7 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_starfall }
 		provinces = { 5257 }
-	}	
+	}
 	### Seagard ###
 	asset = {
 		type = pdxmesh
@@ -2855,7 +2855,7 @@ castle_03 = {
 
 	asset = {
 		type = pdxmesh
-		name = "empty_mesh"		
+		name = "empty_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_castamere }
@@ -2864,7 +2864,7 @@ castle_03 = {
 
 	asset = {
 		type = pdxmesh
-		name = "empty_mesh"		
+		name = "empty_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_oldstones }
@@ -2873,7 +2873,7 @@ castle_03 = {
 
 	asset = {
 		type = pdxmesh
-		name = "broadarch_mesh"		
+		name = "broadarch_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_broadarch }
@@ -2882,7 +2882,7 @@ castle_03 = {
 
 	asset = {
 		type = pdxmesh
-		name = "building_special_ironrath_mesh"		
+		name = "building_special_ironrath_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_ironrath }
@@ -2900,7 +2900,7 @@ castle_03 = {
 
 	asset = {
 		type = pdxmesh
-		name = "bear_island_mesh"		
+		name = "bear_island_mesh"
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_bear }
@@ -2908,7 +2908,7 @@ castle_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "karhold_mesh"		
+		name = "karhold_mesh"
 		illustration = @holding_illustration_karhold
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_karhold }
@@ -2916,11 +2916,11 @@ castle_03 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "runestone_mesh"		
+		name = "runestone_mesh"
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
-	} 	
+	}
 	### Fist of the First Men ###
 	asset = {
 		type = pdxmesh
@@ -3058,7 +3058,7 @@ castle_03 = {
 			}
 		}
 	}
-	
+
 	ai_value = {
 		base = 8
 		ai_general_building_modifier = yes
@@ -3244,7 +3244,7 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { mediterranean_ind_building_gfx }
 	}
-	
+
 	#AGOT Added, Mediterranean-MENA
 	asset = {
 		type = pdxmesh
@@ -3527,7 +3527,7 @@ castle_04 = {
 		#AGOT Disabled
 		#graphical_regions = { graphical_mediterranean }
 	}
-	
+
 	### FP3 Iranian ###
 	asset = {
 		type = pdxmesh
@@ -3629,7 +3629,7 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_harrenhal }
 		provinces = { 1934 }
-	}	
+	}
 	### Hightide ###
 	asset = {
 		type = pdxmesh
@@ -3638,7 +3638,7 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_hightide }
 		provinces = { 4424 }
-	}	
+	}
 	### Starfall ###
 	asset = {
 		type = pdxmesh
@@ -3647,7 +3647,7 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_starfall }
 		provinces = { 5257 }
-	}	
+	}
 	### Seagard ###
 	asset = {
 		type = pdxmesh
@@ -3849,7 +3849,7 @@ castle_04 = {
 
 	asset = {
 		type = pdxmesh
-		name = "empty_mesh"		
+		name = "empty_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_castamere }
@@ -3858,7 +3858,7 @@ castle_04 = {
 
 	asset = {
 		type = pdxmesh
-		name = "empty_mesh"		
+		name = "empty_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_oldstones }
@@ -3867,7 +3867,7 @@ castle_04 = {
 
 	asset = {
 		type = pdxmesh
-		name = "broadarch_mesh"		
+		name = "broadarch_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_broadarch }
@@ -3876,7 +3876,7 @@ castle_04 = {
 
 	asset = {
 		type = pdxmesh
-		name = "building_special_ironrath_mesh"		
+		name = "building_special_ironrath_mesh"
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 0 } }
 		# graphical_regions = { graphical_ironrath }
@@ -3894,7 +3894,7 @@ castle_04 = {
 
 	asset = {
 		type = pdxmesh
-		name = "bear_island_mesh"		
+		name = "bear_island_mesh"
 		illustration = @holding_illustration_norse
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_bear }
@@ -3902,7 +3902,7 @@ castle_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "karhold_mesh"		
+		name = "karhold_mesh"
 		illustration = @holding_illustration_karhold
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		# graphical_regions = { graphical_karhold }
@@ -3910,11 +3910,11 @@ castle_04 = {
 	}
 	asset = {
 		type = pdxmesh
-		name = "runestone_mesh"		
+		name = "runestone_mesh"
 		illustration = @holding_illustration_runestone
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/nordic_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 2455 }
-	} 	
+	}
 	### Fist of the First Men ###
 	asset = {
 		type = pdxmesh
@@ -4047,7 +4047,7 @@ castle_04 = {
 			}
 		}
 	}
-	
+
 	ai_value = {
 		base = 17
 		ai_general_building_modifier = yes
