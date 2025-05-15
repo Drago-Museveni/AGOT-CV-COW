@@ -2041,15 +2041,6 @@ castle_01 = {
 		# graphical_regions = { graphical_sunspear }
 		provinces = { 4937 }
 	}
-	### HORNHILL ###
-	asset = {
-		type = pdxmesh
-		name = "building_western_castle_05_mesh"
-		illustration = @holding_illustration_hornhill
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		# graphical_regions = { graphical_hornhill }
-		provinces = { 3354 }
-	}
 	### HIGHTOWER ###
 	asset = {
 		type = pdxmesh
@@ -2226,6 +2217,15 @@ castle_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 4917 }
 	}
+	### Hornhill ###
+	asset = {
+		type = pdxmesh
+		name = "hornhill_mesh"
+		illustration = @holding_illustration_hornhill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 3354 }
+	}
+
 	### VALYRIA ###
 	asset = {
 		type = pdxmesh
@@ -4408,15 +4408,6 @@ castle_02 = {
 		# graphical_regions = { graphical_sunspear }
 		provinces = { 4937 }
 	}
-	### HORNHILL ###
-	asset = {
-		type = pdxmesh
-		name = "building_western_castle_05_mesh"
-		illustration = @holding_illustration_hornhill
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		# graphical_regions = { graphical_hornhill }
-		provinces = { 3354 }
-	}
 	### HIGHTOWER ###
 	asset = {
 		type = pdxmesh
@@ -4592,6 +4583,15 @@ castle_02 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 4917 }
 	}
+	### Hornhill ###
+	asset = {
+		type = pdxmesh
+		name = "hornhill_mesh"
+		illustration = @holding_illustration_hornhill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 3354 }
+	}
+
 	### VALYRIA ###
 	asset = {
 		type = pdxmesh
@@ -6753,15 +6753,6 @@ castle_03 = {
 		# graphical_regions = { graphical_sunspear }
 		provinces = { 4937 }
 	}
-	### HORNHILL ###
-	asset = {
-		type = pdxmesh
-		name = "building_western_castle_05_mesh"
-		illustration = @holding_illustration_hornhill
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		# graphical_regions = { graphical_hornhill }
-		provinces = { 3354 }
-	}
 	### HIGHTOWER ###
 	asset = {
 		type = pdxmesh
@@ -6938,6 +6929,15 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 4917 }
 	}
+	### Hornhill ###
+	asset = {
+		type = pdxmesh
+		name = "hornhill_mesh"
+		illustration = @holding_illustration_hornhill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 3354 }
+	}
+
 	### VALYRIA ###
 	asset = {
 		type = pdxmesh
@@ -9077,15 +9077,6 @@ castle_04 = {
 		# graphical_regions = { graphical_sunspear }
 		provinces = { 4937 }
 	}
-	### HORNHILL ###
-	asset = {
-		type = pdxmesh
-		name = "building_western_castle_05_mesh"
-		illustration = @holding_illustration_hornhill
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		# graphical_regions = { graphical_hornhill }
-		provinces = { 3354 }
-	}
 	### HIGHTOWER ###
 	asset = {
 		type = pdxmesh
@@ -9262,6 +9253,15 @@ castle_04 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 4917 }
 	}
+	### Hornhill ###
+	asset = {
+		type = pdxmesh
+		name = "hornhill_mesh"
+		illustration = @holding_illustration_hornhill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 3354 }
+	}
+
 	### VALYRIA ###
 	asset = {
 		type = pdxmesh
