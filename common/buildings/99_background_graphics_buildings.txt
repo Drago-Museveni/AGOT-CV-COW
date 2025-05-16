@@ -83,6 +83,7 @@ walls_00 = {
 			this = province:6028
 			this = province:4917
 			this = province:3354
+			this = province:2867
 			has_building = agot_hightide_01
 			has_building = agot_ruins_hightide_02
 		}

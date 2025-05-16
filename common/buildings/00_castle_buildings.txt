@@ -38,6 +38,7 @@
 @holding_illustration_karhold= "gfx/interface/illustrations/holding_types/karhold.dds"
 @holding_illustration_runestone= "gfx/interface/illustrations/holding_types/runestone.dds"
 @holding_illustration_evenfall= "gfx/interface/illustrations/holding_types/evenfall.dds"
+@holding_illustration_fanghill= "gfx/interface/illustrations/holding_types/fanghill.dds"
 
 castle_01 = {
 	#AGOT Modified
@@ -2224,6 +2225,15 @@ castle_01 = {
 		illustration = @holding_illustration_hornhill
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 3354 }
+	}
+
+	### Fanghill ###
+	asset = {
+		type = pdxmesh
+		name = "fanghill_mesh"
+		illustration = @holding_illustration_fanghill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2867 }
 	}
 
 	### VALYRIA ###
@@ -4592,6 +4602,15 @@ castle_02 = {
 		provinces = { 3354 }
 	}
 
+	### Fanghill ###
+	asset = {
+		type = pdxmesh
+		name = "fanghill_mesh"
+		illustration = @holding_illustration_fanghill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2867 }
+	}
+
 	### VALYRIA ###
 	asset = {
 		type = pdxmesh
@@ -6929,6 +6948,7 @@ castle_03 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 4917 }
 	}
+
 	### Hornhill ###
 	asset = {
 		type = pdxmesh
@@ -6936,6 +6956,15 @@ castle_03 = {
 		illustration = @holding_illustration_hornhill
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 3354 }
+	}
+
+	### Fanghill ###
+	asset = {
+		type = pdxmesh
+		name = "fanghill_mesh"
+		illustration = @holding_illustration_fanghill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2867 }
 	}
 
 	### VALYRIA ###
@@ -9260,6 +9289,15 @@ castle_04 = {
 		illustration = @holding_illustration_hornhill
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 3354 }
+	}
+
+	### Fanghill ###
+	asset = {
+		type = pdxmesh
+		name = "fanghill_mesh"
+		illustration = @holding_illustration_fanghill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2867 }
 	}
 
 	### VALYRIA ###

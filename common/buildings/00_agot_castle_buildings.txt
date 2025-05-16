@@ -37,6 +37,7 @@
 @holding_illustration_karhold= "gfx/interface/illustrations/holding_types/karhold.dds"
 @holding_illustration_runestone= "gfx/interface/illustrations/holding_types/runestone.dds"
 @holding_illustration_evenfall= "gfx/interface/illustrations/holding_types/evenfall.dds"
+@holding_illustration_fanghill= "gfx/interface/illustrations/holding_types/fanghill.dds"
 
 castle_05 = {
 	construction_time = agot_main_tier_5_construction_time
@@ -1603,7 +1604,7 @@ castle_05 = {
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_steppe }
 	}
-	
+
 	#Steppe fallbacks
 	#For steppe
 	asset = {
@@ -1968,7 +1969,7 @@ castle_05 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 4917 }
 	}
-	
+
 	### Hornhill ###
 	asset = {
 		type = pdxmesh
@@ -1977,6 +1978,16 @@ castle_05 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 3354 }
 	}
+
+	### Fanghill ###
+	asset = {
+		type = pdxmesh
+		name = "fanghill_mesh"
+		illustration = @holding_illustration_fanghill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2867 }
+	}
+
 	### VALYRIA ###
 	asset = {
 		type = pdxmesh
@@ -3651,7 +3662,7 @@ castle_06 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_steppe }
-	}    
+	}
 	#Steppe fallbacks
 	#For steppe
 	asset = {
@@ -4023,6 +4034,15 @@ castle_06 = {
 		illustration = @holding_illustration_hornhill
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 3354 }
+	}
+
+	### Fanghill ###
+	asset = {
+		type = pdxmesh
+		name = "fanghill_mesh"
+		illustration = @holding_illustration_fanghill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2867 }
 	}
 
 	### VALYRIA ###
@@ -5699,7 +5719,7 @@ castle_07 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_steppe }
-	}    
+	}
 	#Steppe fallbacks
 	#For steppe
 	asset = {
@@ -6064,6 +6084,7 @@ castle_07 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 4917 }
 	}
+
 	### Hornhill ###
 	asset = {
 		type = pdxmesh
@@ -6071,6 +6092,15 @@ castle_07 = {
 		illustration = @holding_illustration_hornhill
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
 		provinces = { 3354 }
+	}
+
+	### Fanghill ###
+	asset = {
+		type = pdxmesh
+		name = "fanghill_mesh"
+		illustration = @holding_illustration_fanghill
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+		provinces = { 2867 }
 	}
 
 	### VALYRIA ###
