@@ -1733,7 +1733,7 @@ castle_01 = {
 		graphical_cultures = { mena_building_gfx }
 		graphical_regions = { graphical_siberia }
 	}
-	
+
 	#AGOT Added, India
 	asset = {
 		type = pdxmesh
@@ -4441,7 +4441,7 @@ castle_02 = {
 		graphical_cultures = { mena_building_gfx }
 		graphical_regions = { graphical_siberia }
 	}
-	
+
 	#AGOT Added, India
 	asset = {
 		type = pdxmesh
@@ -7126,7 +7126,7 @@ castle_03 = {
 		graphical_cultures = { mena_building_gfx }
 		graphical_regions = { graphical_siberia }
 	}
-	
+
 	#AGOT Added, India
 	asset = {
 		type = pdxmesh
