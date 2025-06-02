@@ -1996,15 +1996,15 @@ castle_05 = {
 	# 	provinces = { 496 }
 	# }
 
-	### Harrenhal ###
-	asset = {
-		type = pdxmesh
-		name = "empty_mesh"
-		illustration = @holding_illustration_harrenhal
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		# graphical_regions = { graphical_harrenhal }
-		provinces = { 1934 }
-	}
+	# ### Harrenhal ###
+	# asset = {
+	# 	type = pdxmesh
+	# 	name = "empty_mesh"
+	# 	illustration = @holding_illustration_harrenhal
+	# 	soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+	# 	# graphical_regions = { graphical_harrenhal }
+	# 	provinces = { 1934 }
+	# }
 	### Hightide ###
 	asset = {
 		type = pdxmesh
@@ -4384,15 +4384,15 @@ castle_06 = {
 	# 	provinces = { 496 }
 	# }
 
-	### Harrenhal ###
-	asset = {
-		type = pdxmesh
-		name = "empty_mesh"
-		illustration = @holding_illustration_harrenhal
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		# graphical_regions = { graphical_harrenhal }
-		provinces = { 1934 }
-	}
+	# ### Harrenhal ###
+	# asset = {
+	# 	type = pdxmesh
+	# 	name = "empty_mesh"
+	# 	illustration = @holding_illustration_harrenhal
+	# 	soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+	# 	# graphical_regions = { graphical_harrenhal }
+	# 	provinces = { 1934 }
+	# }
 	### Hightide ###
 	asset = {
 		type = pdxmesh
@@ -6771,15 +6771,15 @@ castle_07 = {
 	# 	provinces = { 496 }
 	# }
 
-	### Harrenhal ###
-	asset = {
-		type = pdxmesh
-		name = "empty_mesh"
-		illustration = @holding_illustration_harrenhal
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
-		# graphical_regions = { graphical_harrenhal }
-		provinces = { 1934 }
-	}
+	# ### Harrenhal ###
+	# asset = {
+	# 	type = pdxmesh
+	# 	name = "empty_mesh"
+	# 	illustration = @holding_illustration_harrenhal
+	# 	soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/western_castle" soundparameter = { "Tier" = 3 } }
+	# 	# graphical_regions = { graphical_harrenhal }
+	# 	provinces = { 1934 }
+	# }
 	### Hightide ###
 	asset = {
 		type = pdxmesh
