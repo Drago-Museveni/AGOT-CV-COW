@@ -563,8 +563,9 @@ castle_05 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_mediterranean_castle_04_western_mesh"
+			"ep3_byzantine_castle_04_a_mesh"
 		}
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { pentoshi_building_gfx }
@@ -573,8 +574,9 @@ castle_05 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_mediterranean_castle_04_mesh"
+			"ep3_byzantine_castle_04_a_mesh"
 		}
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_mediterranean
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { pentoshi_building_gfx }
@@ -583,8 +585,9 @@ castle_05 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_mediterranean_castle_04_mena_mesh"
+			"ep3_byzantine_castle_04_a_mesh"
 		}
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_mena
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { pentoshi_building_gfx }
@@ -593,8 +596,9 @@ castle_05 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_mediterranean_castle_04_indian_mesh"
+			"ep3_byzantine_castle_04_a_mesh"
 		}
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_india
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { pentoshi_building_gfx }
@@ -603,8 +607,9 @@ castle_05 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_mediterranean_castle_04_western_mesh"
+			"ep3_byzantine_castle_04_a_mesh"
 		}
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { pentoshi_building_gfx }
@@ -613,8 +618,9 @@ castle_05 = {
 	asset = {
 		type = pdxmesh
 		names = {
-			"building_mediterranean_castle_04_western_mesh"
+			"ep3_byzantine_castle_04_a_mesh"
 		}
+		requires_dlc_flag = roads_to_power
 		illustration = @holding_illustration_western
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/mediterranean_castle" soundparameter = { "Tier" = 3 } }
 		graphical_cultures = { pentoshi_building_gfx }
