@@ -1796,7 +1796,8 @@ city_05 = {
 		graphical_cultures = { steppe_building_gfx }
 		graphical_regions = { graphical_mediterranean }
 	}
-
+	
+	## Plankytown ##
 	asset = {
 		type = pdxmesh
 		name = "fp3_building_persian_city_02_a_01_mesh"

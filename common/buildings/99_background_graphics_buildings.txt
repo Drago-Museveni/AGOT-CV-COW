@@ -1430,7 +1430,7 @@ walls_01 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_01_a_01_mesh" 
+			"fp3_building_persian_walls_01_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_western }
@@ -1439,7 +1439,7 @@ walls_01 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_01_a_01_mesh" 
+			"fp3_building_persian_walls_01_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -1448,7 +1448,7 @@ walls_01 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_01_a_01_mesh" 
+			"fp3_building_persian_walls_01_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_mena }
@@ -1457,7 +1457,7 @@ walls_01 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_01_a_01_mesh" 
+			"fp3_building_persian_walls_01_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_india }
@@ -1466,7 +1466,7 @@ walls_01 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_01_a_01_mesh" 
+			"fp3_building_persian_walls_01_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_steppe }
@@ -1475,7 +1475,7 @@ walls_01 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_01_a_01_mesh" 
+			"fp3_building_persian_walls_01_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_siberia }
@@ -2044,7 +2044,7 @@ walls_02 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_02_mesh" 
+			"ep3_byzantine_walls_02_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_western }
@@ -2884,7 +2884,7 @@ walls_02 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_02_a_01_mesh" 
+			"fp3_building_persian_walls_02_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_western }
@@ -2893,7 +2893,7 @@ walls_02 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_02_a_01_mesh" 
+			"fp3_building_persian_walls_02_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -2902,7 +2902,7 @@ walls_02 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_02_a_01_mesh" 
+			"fp3_building_persian_walls_02_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_mena }
@@ -2911,7 +2911,7 @@ walls_02 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_02_a_01_mesh" 
+			"fp3_building_persian_walls_02_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_india }
@@ -2920,7 +2920,7 @@ walls_02 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_02_a_01_mesh" 
+			"fp3_building_persian_walls_02_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_steppe }
@@ -2929,7 +2929,7 @@ walls_02 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_02_a_01_mesh" 
+			"fp3_building_persian_walls_02_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_siberia }
@@ -2985,7 +2985,7 @@ walls_02 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_02_mesh" 
+			"ep3_byzantine_walls_02_mesh"
 		}
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_siberia }
@@ -3565,7 +3565,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_03_mesh" 
+			"ep3_byzantine_walls_03_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_western }
@@ -3574,7 +3574,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_03_mesh" 
+			"ep3_byzantine_walls_03_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -3583,7 +3583,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_03_mesh" 
+			"ep3_byzantine_walls_03_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_mena }
@@ -3592,7 +3592,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_03_mesh" 
+			"ep3_byzantine_walls_03_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_india }
@@ -3601,7 +3601,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_03_mesh" 
+			"ep3_byzantine_walls_03_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_steppe }
@@ -3610,7 +3610,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_03_mesh" 
+			"ep3_byzantine_walls_03_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_siberia }
@@ -4405,7 +4405,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_03_a_01_mesh" 
+			"fp3_building_persian_walls_03_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_western }
@@ -4414,7 +4414,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_03_a_01_mesh" 
+			"fp3_building_persian_walls_03_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -4423,7 +4423,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_03_a_01_mesh" 
+			"fp3_building_persian_walls_03_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_mena }
@@ -4432,7 +4432,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_03_a_01_mesh" 
+			"fp3_building_persian_walls_03_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_india }
@@ -4441,7 +4441,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_03_a_01_mesh" 
+			"fp3_building_persian_walls_03_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_steppe }
@@ -4450,7 +4450,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_03_a_01_mesh" 
+			"fp3_building_persian_walls_03_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_siberia }
@@ -4506,7 +4506,7 @@ walls_03 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_03_mesh" 
+			"ep3_byzantine_walls_03_mesh"
 		}
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_siberia }
@@ -5085,7 +5085,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_04_mesh" 
+			"ep3_byzantine_walls_04_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_western }
@@ -5094,7 +5094,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_04_mesh" 
+			"ep3_byzantine_walls_04_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -5103,7 +5103,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_04_mesh" 
+			"ep3_byzantine_walls_04_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_mena }
@@ -5112,7 +5112,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_04_mesh" 
+			"ep3_byzantine_walls_04_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_india }
@@ -5121,7 +5121,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_04_mesh" 
+			"ep3_byzantine_walls_04_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_steppe }
@@ -5130,7 +5130,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_04_mesh" 
+			"ep3_byzantine_walls_04_mesh"
 		}
 		graphical_cultures = { pentoshi_building_gfx }
 		graphical_regions = { graphical_siberia }
@@ -5926,7 +5926,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_04_a_01_mesh" 
+			"fp3_building_persian_walls_04_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_western }
@@ -5935,7 +5935,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_04_a_01_mesh" 
+			"fp3_building_persian_walls_04_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_mediterranean }
@@ -5944,7 +5944,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_04_a_01_mesh" 
+			"fp3_building_persian_walls_04_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_mena }
@@ -5953,7 +5953,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_04_a_01_mesh" 
+			"fp3_building_persian_walls_04_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_india }
@@ -5962,7 +5962,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_04_a_01_mesh" 
+			"fp3_building_persian_walls_04_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_steppe }
@@ -5971,7 +5971,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = legacy_of_persia
 		names = {
-			"fp3_building_persian_walls_04_a_01_mesh" 
+			"fp3_building_persian_walls_04_a_01_mesh"
 		}
 		graphical_cultures = { iranian_building_gfx }
 		graphical_regions = { graphical_siberia }
@@ -6027,7 +6027,7 @@ walls_04 = {
 		type = pdxmesh
 		requires_dlc_flag = roads_to_power
 		names = {
-			"ep3_byzantine_walls_04_mesh" 
+			"ep3_byzantine_walls_04_mesh"
 		}
 		graphical_cultures = { byzantine_building_gfx }
 		graphical_regions = { graphical_siberia }
