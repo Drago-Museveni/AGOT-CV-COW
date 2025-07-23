@@ -97,6 +97,10 @@ walls_00 = {
 		NOT = {
 			this = province:2819
 			has_building_or_higher = ten_towers_01
+		}		
+		NOT = {
+			this = province:4241
+			has_building_or_higher = agot_duskendale_01
 		}
 	}
 }
@@ -145,6 +149,10 @@ walls_01_tribal = {
 			AND = {
 				this = province:2819
 				has_building_or_higher = ten_towers_01
+			}					
+			AND = {
+				this = province:4241
+				has_building_or_higher = agot_duskendale_01
 			}
 		}
 		# Nomads use custom walls
@@ -1602,6 +1610,10 @@ walls_01 = {
 			AND = {
 				this = province:2819
 				has_building_or_higher = ten_towers_01
+			}					
+			AND = {
+				this = province:4241
+				has_building_or_higher = agot_duskendale_01
 			}
 		}
 	}
@@ -3135,6 +3147,10 @@ walls_02 = {
 			AND = {
 				this = province:2819
 				has_building_or_higher = ten_towers_01
+			}					
+			AND = {
+				this = province:4241
+				has_building_or_higher = agot_duskendale_01
 			}
 		}
 	}
@@ -4656,6 +4672,10 @@ walls_03 = {
 			AND = {
 				this = province:2819
 				has_building_or_higher = ten_towers_01
+			}					
+			AND = {
+				this = province:4241
+				has_building_or_higher = agot_duskendale_01
 			}
 		}
 	}
@@ -6157,6 +6177,16 @@ walls_04 = {
 			scope:holder = {
 				government_has_flag = government_is_nomadic
 				root = { fort_level >= 4 }
+			}
+		}
+		NOR = {
+			AND = {
+				this = province:2819
+				has_building_or_higher = ten_towers_01
+			}					
+			AND = {
+				this = province:4241
+				has_building_or_higher = agot_duskendale_01
 			}
 		}
 	}
