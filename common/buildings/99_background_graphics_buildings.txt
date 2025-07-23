@@ -93,6 +93,10 @@ walls_00 = {
 			this = province:2867
 			has_building = agot_hightide_01
 			has_building = agot_ruins_hightide_02
+		}		
+		NOT = {
+			this = province:2819
+			has_building_or_higher = ten_towers_01
 		}
 	}
 }
@@ -137,7 +141,11 @@ walls_01_tribal = {
 			# has_building_or_higher = "walls_of_genoa_01"
 			# has_building_or_higher = "aurelian_walls_01"
 			# has_building_or_higher = "city_wall_of_toledo_01"
-			# has_building_or_higher = "roman_wall_of_lugo_01"
+			# has_building_or_higher = "roman_wall_of_lugo_01"			
+			AND = {
+				this = province:2819
+				has_building_or_higher = ten_towers_01
+			}
 		}
 		# Nomads use custom walls
 		scope:holder = { NOT = { government_has_flag = government_is_nomadic } }
@@ -1590,7 +1598,11 @@ walls_01 = {
 			# has_building_or_higher = "walls_of_genoa_01"
 			# has_building_or_higher = "aurelian_walls_01"
 			# has_building_or_higher = "city_wall_of_toledo_01"
-			# has_building_or_higher = "roman_wall_of_lugo_01"
+			# has_building_or_higher = "roman_wall_of_lugo_01""			
+			AND = {
+				this = province:2819
+				has_building_or_higher = ten_towers_01
+			}
 		}
 	}
 }
@@ -3119,7 +3131,11 @@ walls_02 = {
 			# has_building_or_higher = "walls_of_genoa_01"
 			# has_building_or_higher = "aurelian_walls_01"
 			# has_building_or_higher = "city_wall_of_toledo_01"
-			# has_building_or_higher = "roman_wall_of_lugo_01"
+			# has_building_or_higher = "roman_wall_of_lugo_01""			
+			AND = {
+				this = province:2819
+				has_building_or_higher = ten_towers_01
+			}
 		}
 	}
 }
@@ -4636,7 +4652,11 @@ walls_03 = {
 			#AGOT Disabled
 			# has_building_or_higher = "theodosian_walls_01"
 			# has_building_or_higher = "city_wall_of_toledo_01"
-			# has_building_or_higher = "roman_wall_of_lugo_01"
+			# has_building_or_higher = "roman_wall_of_lugo_01""			
+			AND = {
+				this = province:2819
+				has_building_or_higher = ten_towers_01
+			}
 		}
 	}
 }
