@@ -106,6 +106,22 @@ walls_00 = {
 			this = province:1686
 			has_building_or_higher = agot_raventree_hall_01
 		}
+		NOT = {
+			this = province:5303
+			has_building_or_higher = yronwood_01
+		}
+		NOT = {
+			this = province:3161
+			has_building_or_higher = crag_01
+		}
+		NOT = {
+			this = province:3161
+			has_building_or_higher = crag_full
+		}
+		NOT = {
+			this = province:4424
+			has_building_or_higher = agot_ruins_hightide_02
+		}
 	}
 }
 
@@ -170,7 +186,23 @@ walls_01_tribal = {
 			AND = {
 				this = province:1686
 				has_building_or_higher = agot_raventree_hall_01
-			}			
+			}		
+			AND = {
+				this = province:5303
+				has_building_or_higher = yronwood_01
+			}	
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_full
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_ruins_hightide_02
+			}
 		}
 		# Nomads use custom walls
 		scope:holder = { NOT = { government_has_flag = government_is_nomadic } }
@@ -1700,6 +1732,22 @@ walls_01 = {
 			AND = {
 				this = province:1686
 				has_building_or_higher = agot_raventree_hall_01
+			}		
+			AND = {
+				this = province:5303
+				has_building_or_higher = yronwood_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_full
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_ruins_hightide_02
 			}
 		}
 	}
@@ -3306,6 +3354,22 @@ walls_02 = {
 			AND = {
 				this = province:1686
 				has_building_or_higher = agot_raventree_hall_01
+			}		
+			AND = {
+				this = province:5303
+				has_building_or_higher = yronwood_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_full
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_ruins_hightide_02
 			}
 		}
 	}
@@ -4896,6 +4960,22 @@ walls_03 = {
 			AND = {
 				this = province:1686
 				has_building_or_higher = agot_raventree_hall_01
+			}		
+			AND = {
+				this = province:5303
+				has_building_or_higher = yronwood_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_full
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_ruins_hightide_02
 			}
 		}
 	}
@@ -6472,6 +6552,22 @@ walls_04 = {
 			AND = {
 				this = province:1686
 				has_building_or_higher = agot_raventree_hall_01
+			}		
+			AND = {
+				this = province:5303
+				has_building_or_higher = yronwood_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_01
+			}
+			AND = {
+				this = province:3161
+				has_building_or_higher = crag_full
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_ruins_hightide_02
 			}
 		}
 	}

@@ -268,7 +268,7 @@ city_05 = {
 		graphical_regions = { graphical_siberia }
 	}
 
-	# Iron Islands
+	#AGOT Added, Iron Islands
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1299,6 +1299,7 @@ city_05 = {
 		graphical_cultures = { yitish_building_gfx }
 		graphical_regions = { graphical_siberia }
 	}
+
 
 	#AGOT Added, Western
 	asset = {
