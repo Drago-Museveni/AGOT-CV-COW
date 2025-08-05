@@ -122,6 +122,22 @@ walls_00 = {
 			this = province:4424
 			has_building_or_higher = agot_ruins_hightide_02
 		}
+		NOT = {
+			this = province:4424
+			has_building_or_higher = agot_hightide_01
+		}
+		NOT = {
+			this = province:3320
+			has_building_or_higher = agot_starpike_01
+		}
+		NOT = {
+			this = province:3823
+			has_building_or_higher = agot_dunstonbury_01
+		}
+		NOT = {
+			this = province:3289
+			has_building_or_higher = agot_whitegrove_01
+		}
 	}
 }
 
@@ -202,6 +218,22 @@ walls_01_tribal = {
 			AND = {
 				this = province:4424
 				has_building_or_higher = agot_ruins_hightide_02
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_hightide_01
+			}
+			AND = {
+				this = province:3320
+				has_building_or_higher = agot_starpike_01
+			}
+			AND = {
+				this = province:3823
+				has_building_or_higher = agot_dunstonbury_01
+			}
+			AND = {
+				this = province:3289
+				has_building_or_higher = agot_whitegrove_01
 			}
 		}
 		# Nomads use custom walls
@@ -1748,6 +1780,22 @@ walls_01 = {
 			AND = {
 				this = province:4424
 				has_building_or_higher = agot_ruins_hightide_02
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_hightide_01
+			}
+			AND = {
+				this = province:3320
+				has_building_or_higher = agot_starpike_01
+			}
+			AND = {
+				this = province:3823
+				has_building_or_higher = agot_dunstonbury_01
+			}
+			AND = {
+				this = province:3289
+				has_building_or_higher = agot_whitegrove_01
 			}
 		}
 	}
@@ -3371,6 +3419,22 @@ walls_02 = {
 				this = province:4424
 				has_building_or_higher = agot_ruins_hightide_02
 			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_hightide_01
+			}
+			AND = {
+				this = province:3320
+				has_building_or_higher = agot_starpike_01
+			}
+			AND = {
+				this = province:3823
+				has_building_or_higher = agot_dunstonbury_01
+			}
+			AND = {
+				this = province:3289
+				has_building_or_higher = agot_whitegrove_01
+			}
 		}
 	}
 }
@@ -4977,6 +5041,22 @@ walls_03 = {
 				this = province:4424
 				has_building_or_higher = agot_ruins_hightide_02
 			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_hightide_01
+			}
+			AND = {
+				this = province:3320
+				has_building_or_higher = agot_starpike_01
+			}
+			AND = {
+				this = province:3823
+				has_building_or_higher = agot_dunstonbury_01
+			}
+			AND = {
+				this = province:3289
+				has_building_or_higher = agot_whitegrove_01
+			}
 		}
 	}
 }
@@ -6568,6 +6648,22 @@ walls_04 = {
 			AND = {
 				this = province:4424
 				has_building_or_higher = agot_ruins_hightide_02
+			}
+			AND = {
+				this = province:4424
+				has_building_or_higher = agot_hightide_01
+			}
+			AND = {
+				this = province:3320
+				has_building_or_higher = agot_starpike_01
+			}
+			AND = {
+				this = province:3823
+				has_building_or_higher = agot_dunstonbury_01
+			}
+			AND = {
+				this = province:3289
+				has_building_or_higher = agot_whitegrove_01
 			}
 		}
 	}
