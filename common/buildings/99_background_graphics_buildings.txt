@@ -101,6 +101,10 @@ walls_00 = {
 		NOT = {
 			this = province:4241
 			has_building_or_higher = agot_duskendale_01
+		}			
+		NOT = {
+			this = province:4241
+			has_building_or_higher = cow_duskendale_01
 		}	
 		NOT = {
 			this = province:1686
@@ -137,6 +141,14 @@ walls_00 = {
 		NOT = {
 			this = province:3289
 			has_building_or_higher = agot_whitegrove_01
+		}
+		NOT = {
+			this = province:4268
+			has_building_or_higher = agot_rooks_rest_01
+		}
+		NOT = {
+			this = province:4268
+			has_building_or_higher = cow_rooks_rest_01
 		}
 	}
 }
@@ -198,7 +210,11 @@ walls_01_tribal = {
 			AND = {
 				this = province:4241
 				has_building_or_higher = agot_duskendale_01
-			}
+			}			
+			AND = {
+				this = province:4241
+				has_building_or_higher = cow_duskendale_01
+			}	
 			AND = {
 				this = province:1686
 				has_building_or_higher = agot_raventree_hall_01
@@ -234,6 +250,14 @@ walls_01_tribal = {
 			AND = {
 				this = province:3289
 				has_building_or_higher = agot_whitegrove_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = agot_rooks_rest_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = cow_rooks_rest_01
 			}
 		}
 		# Nomads use custom walls
@@ -1760,7 +1784,11 @@ walls_01 = {
 			AND = {
 				this = province:4241
 				has_building_or_higher = agot_duskendale_01
-			}
+			}		
+			AND = {
+				this = province:4241
+				has_building_or_higher = cow_duskendale_01
+			}	
 			AND = {
 				this = province:1686
 				has_building_or_higher = agot_raventree_hall_01
@@ -1796,6 +1824,14 @@ walls_01 = {
 			AND = {
 				this = province:3289
 				has_building_or_higher = agot_whitegrove_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = agot_rooks_rest_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = cow_rooks_rest_01
 			}
 		}
 	}
@@ -3398,7 +3434,11 @@ walls_02 = {
 			AND = {
 				this = province:4241
 				has_building_or_higher = agot_duskendale_01
-			}
+			}		
+			AND = {
+				this = province:4241
+				has_building_or_higher = cow_duskendale_01
+			}	
 			AND = {
 				this = province:1686
 				has_building_or_higher = agot_raventree_hall_01
@@ -3434,6 +3474,14 @@ walls_02 = {
 			AND = {
 				this = province:3289
 				has_building_or_higher = agot_whitegrove_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = agot_rooks_rest_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = cow_rooks_rest_01
 			}
 		}
 	}
@@ -5020,7 +5068,11 @@ walls_03 = {
 			AND = {
 				this = province:4241
 				has_building_or_higher = agot_duskendale_01
-			}
+			}		
+			AND = {
+				this = province:4241
+				has_building_or_higher = cow_duskendale_01
+			}	
 			AND = {
 				this = province:1686
 				has_building_or_higher = agot_raventree_hall_01
@@ -5056,6 +5108,14 @@ walls_03 = {
 			AND = {
 				this = province:3289
 				has_building_or_higher = agot_whitegrove_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = agot_rooks_rest_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = cow_rooks_rest_01
 			}
 		}
 	}
@@ -6628,7 +6688,11 @@ walls_04 = {
 			AND = {
 				this = province:4241
 				has_building_or_higher = agot_duskendale_01
-			}
+			}		
+			AND = {
+				this = province:4241
+				has_building_or_higher = cow_duskendale_01
+			}	
 			AND = {
 				this = province:1686
 				has_building_or_higher = agot_raventree_hall_01
@@ -6664,6 +6728,14 @@ walls_04 = {
 			AND = {
 				this = province:3289
 				has_building_or_higher = agot_whitegrove_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = agot_rooks_rest_01
+			}
+			AND = {
+				this = province:4268
+				has_building_or_higher = cow_rooks_rest_01
 			}
 		}
 	}
