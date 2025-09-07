@@ -9,7 +9,6 @@ walls_00 = {
 	# 	type = pdxmesh
 	# 	name = "western_walls_00_mesh"
 	# }
-
 	asset = {
 		type = pdxmesh
 		name = "building_empty_mesh"
