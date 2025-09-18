@@ -42,7 +42,7 @@ walls_00 = {
 		}		
 		NOT = {
 			this = province:2819
-			has_building_or_higher = ten_towers_01
+			has_building_or_higher = agot_ten_towers_01
 		}		
 		NOT = {
 			this = province:4241
@@ -231,7 +231,7 @@ walls_01_tribal = {
 			# has_building_or_higher = "roman_wall_of_lugo_01"
 			AND = {
 				this = province:2819
-				has_building_or_higher = ten_towers_01
+				has_building_or_higher = agot_ten_towers_01
 			}					
 			AND = {
 				this = province:4241
@@ -2160,7 +2160,7 @@ walls_01 = {
 			# has_building_or_higher = "roman_wall_of_lugo_01"
 			AND = {
 				this = province:2819
-				has_building_or_higher = ten_towers_01
+				has_building_or_higher = agot_ten_towers_01
 			}					
 			AND = {
 				this = province:4241
@@ -4164,7 +4164,7 @@ walls_02 = {
 			# has_building_or_higher = "roman_wall_of_lugo_01"
 			AND = {
 				this = province:2819
-				has_building_or_higher = ten_towers_01
+				has_building_or_higher = agot_ten_towers_01
 			}					
 			AND = {
 				this = province:4241
@@ -6140,7 +6140,7 @@ walls_03 = {
 			# has_building_or_higher = "roman_wall_of_lugo_01"
 			AND = {
 				this = province:2819
-				has_building_or_higher = ten_towers_01
+				has_building_or_higher = agot_ten_towers_01
 			}					
 			AND = {
 				this = province:4241
@@ -8110,7 +8110,7 @@ walls_04 = {
 		NOR = {
 			AND = {
 				this = province:2819
-				has_building_or_higher = ten_towers_01
+				has_building_or_higher = agot_ten_towers_01
 			}					
 			AND = {
 				this = province:4241
