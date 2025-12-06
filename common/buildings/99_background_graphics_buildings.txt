@@ -2668,7 +2668,7 @@ walls_01 = {
 			has_building_or_higher = "building_moat_02"
 			has_building_or_higher = "city_walls_02"
 			this = province:4153
-						AND = {
+			AND = {
 				this = province:2819
 				has_building_or_higher = agot_ten_towers_01
 			}					
@@ -10156,6 +10156,8 @@ walls_04 = {
 				government_has_flag = government_is_nomadic
 				root = { fort_level >= 4 }
 			}
+		}
+		NOR = {
 			AND = {
 				this = province:2819
 				has_building_or_higher = agot_ten_towers_01
