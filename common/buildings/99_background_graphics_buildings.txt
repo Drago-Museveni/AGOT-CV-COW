@@ -1,5 +1,5 @@
 ﻿# These buildings are only for showing background graphics, e.g. the walls around holdings
-
+# Update for idiots - no changes Dec 24 2025
 # No Walls
 walls_00 = {
 	is_graphical_background = yes
