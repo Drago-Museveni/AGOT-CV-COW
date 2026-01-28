@@ -178,6 +178,14 @@ walls_00 = {
 			this = province:3092
 			has_building_or_higher = ashemark_01
 		}
+		NOT = {
+			this = province:1737
+			has_building_or_higher = agot_oldstones_02
+		}
+		NOT = {
+			this = province:2626
+			has_building_or_higher = flint_tower_01
+		}
 	}
 }
 
@@ -368,6 +376,14 @@ walls_01_tribal = {
 			AND = {
 				this = province:3092
 				has_building_or_higher = ashemark_01
+			}
+			AND = {
+				this = province:1737
+				has_building_or_higher = agot_oldstones_02
+			}
+			AND = {
+				this = province:2626
+				has_building_or_higher = flint_tower_01
 			}
 		}
 		# Nomads use custom walls
@@ -2806,6 +2822,14 @@ walls_01 = {
 				this = province:3092
 				has_building_or_higher = ashemark_01
 			}
+			AND = {
+				this = province:1737
+				has_building_or_higher = agot_oldstones_02
+			}
+			AND = {
+				this = province:2626
+				has_building_or_higher = flint_tower_01
+			}
 		}
 	}
 }
@@ -2874,7 +2898,7 @@ walls_02 = {
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = roads_to_power
-	# 	graphical_cultures = { byzantine_building_gfx }
+	# 	graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
 	# 	graphical_regions = { graphical_mediterranean }
 	# 	names = {
 	# 		"ep3_byzantine_walls_02_mesh"
@@ -5325,6 +5349,14 @@ walls_02 = {
 				this = province:3092
 				has_building_or_higher = ashemark_01
 			}
+			AND = {
+				this = province:1737
+				has_building_or_higher = agot_oldstones_02
+			}
+			AND = {
+				this = province:2626
+				has_building_or_higher = flint_tower_01
+			}
 		}
 	}
 }
@@ -5392,7 +5424,7 @@ walls_03 = {
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = roads_to_power
-	# 	graphical_cultures = { byzantine_building_gfx }
+	# 	graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
 	# 	graphical_regions = { graphical_mediterranean }
 	# 	names = {
 	# 		"ep3_byzantine_walls_03_mesh"
@@ -7819,6 +7851,14 @@ walls_03 = {
 				this = province:3092
 				has_building_or_higher = ashemark_01
 			}
+			AND = {
+				this = province:1737
+				has_building_or_higher = agot_oldstones_02
+			}
+			AND = {
+				this = province:2626
+				has_building_or_higher = flint_tower_01
+			}
 		}
 	}
 }
@@ -7886,7 +7926,7 @@ walls_04 = {
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = roads_to_power
-	# 	graphical_cultures = { byzantine_building_gfx }
+	# 	graphical_cultures = { byzantine_building_gfx caucasian_building_gfx }
 	# 	graphical_regions = { graphical_mediterranean }
 	# 	names = {
 	# 		"ep3_byzantine_walls_04_mesh"
@@ -10299,6 +10339,14 @@ walls_04 = {
 			AND = {
 				this = province:3092
 				has_building_or_higher = ashemark_01
+			}
+			AND = {
+				this = province:1737
+				has_building_or_higher = agot_oldstones_02
+			}
+			AND = {
+				this = province:2626
+				has_building_or_higher = flint_tower_01
 			}
 		}
 	}
