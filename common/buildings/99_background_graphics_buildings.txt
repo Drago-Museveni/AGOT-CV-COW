@@ -1,7 +1,7 @@
 ﻿# These buildings are only for showing background graphics, e.g. the walls around holdings
 
 # No Walls
-walls_00 = {
+walls_00 = { # Update for idiots 2/9/26
 	is_graphical_background = yes
 
 	#AGOT Modified
