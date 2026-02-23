@@ -156,7 +156,7 @@ walls_00 = {
 		}
 		NOT = {
 			this = province:1636
-			has_building_or_higher = bearisland_01
+			has_building_or_higher = agot_rodriks_gift_01
 		}
 		NOT = {
 			this = province:2867
@@ -207,13 +207,13 @@ walls_01_tribal = {
 		}
 	}
 
-	#AGOT Added, Shadow Tower, Casterly Rock
+	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate
 	asset = {
 		type = pdxmesh
 		names = {
 			"building_empty_mesh"
 		}
-		provinces = { 8 2855 2859 }
+		provinces = { 8 2855 2859 2263 }
 	}
 
 	is_enabled = {
@@ -355,7 +355,7 @@ walls_01_tribal = {
 			}
 			AND = {
 				this = province:1636
-				has_building_or_higher = bearisland_01
+				has_building_or_higher = agot_rodriks_gift_01
 			}
 			AND = {
 				this = province:2867
@@ -505,13 +505,13 @@ walls_01 = {
 	# 	}
 	# }
 
-	#AGOT Added, Shadow Tower, Casterly Rock
+	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate
 	asset = {
 		type = pdxmesh
 		names = {
 			"building_empty_mesh"
 		}
-		provinces = { 8 2855 2859 }
+		provinces = { 8 2855 2859 2263 }
 	}
 
 	#AGOT Added, Dreadfort
@@ -2800,7 +2800,7 @@ walls_01 = {
 			}
 			AND = {
 				this = province:1636
-				has_building_or_higher = bearisland_01
+				has_building_or_higher = agot_rodriks_gift_01
 			}
 			AND = {
 				this = province:2867
@@ -2955,13 +2955,13 @@ walls_02 = {
 	# 	}
 	# }
 
-	#AGOT Added, Shadow Tower, Casterly Rock
+	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate
 	asset = {
 		type = pdxmesh
 		names = {
 			"building_empty_mesh"
 		}
-		provinces = { 8 2855 2859 }
+		provinces = { 8 2855 2859 2263 }
 	}
 
 	#AGOT Added, Dreadfort
@@ -5327,7 +5327,7 @@ walls_02 = {
 			}
 			AND = {
 				this = province:1636
-				has_building_or_higher = bearisland_01
+				has_building_or_higher = agot_rodriks_gift_01
 			}
 			AND = {
 				this = province:2867
@@ -5482,13 +5482,13 @@ walls_03 = {
 	# 	}
 	# }
 
-	#AGOT Added, Shadow Tower, Casterly Rock
+	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate
 	asset = {
 		type = pdxmesh
 		names = {
 			"building_empty_mesh"
 		}
-		provinces = { 8 2855 2859 }
+		provinces = { 8 2855 2859 2263 }
 	}
 
 	#AGOT Added, Dreadfort
@@ -7829,7 +7829,7 @@ walls_03 = {
 			}
 			AND = {
 				this = province:1636
-				has_building_or_higher = bearisland_01
+				has_building_or_higher = agot_rodriks_gift_01
 			}
 			AND = {
 				this = province:2867
@@ -7983,13 +7983,13 @@ walls_04 = {
 	# 	}
 	# }
 
-	#AGOT Added, Shadow Tower, Casterly Rock
+	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate
 	asset = {
 		type = pdxmesh
 		names = {
 			"building_empty_mesh"
 		}
-		provinces = { 8 2855 2859 }
+		provinces = { 8 2855 2859 2263 }
 	}
 
 	#AGOT Added, Hammerhorn
@@ -10318,7 +10318,7 @@ walls_04 = {
 			}
 			AND = {
 				this = province:1636
-				has_building_or_higher = bearisland_01
+				has_building_or_higher = agot_rodriks_gift_01
 			}
 			AND = {
 				this = province:2867
