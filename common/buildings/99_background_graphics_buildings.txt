@@ -167,16 +167,12 @@ walls_00 = {
 			has_building_or_higher = agot_evenfall_hall_01
 		}
 		NOT = {
-			this = province:940
-			has_building_or_higher = deepwood_motte_01
-		}
-		NOT = {
 			this = province:5264
 			has_building_or_higher = high_hermitage_01
 		}
 		NOT = {
 			this = province:3092
-			has_building_or_higher = ashemark_01
+			has_building_or_higher = agot_ashemark_01
 		}
 		NOT = {
 			this = province:1737
@@ -185,6 +181,16 @@ walls_00 = {
 		NOT = {
 			this = province:2626
 			has_building_or_higher = flint_tower_01
+		}
+		NOT = {
+			this = province:940
+			has_building_or_higher = agot_deepwood_motte_01
+		}
+		NOT = {
+			this = province:1911
+		}
+		NOT = {
+			this = province:1910
 		}
 	}
 }
@@ -366,16 +372,12 @@ walls_01_tribal = {
 				has_building_or_higher = agot_evenfall_hall_01
 			}
 			AND = {
-				this = province:940
-				has_building_or_higher = deepwood_motte_01
-			}
-			AND = {
 				this = province:5264
 				has_building_or_higher = high_hermitage_01
 			}
 			AND = {
 				this = province:3092
-				has_building_or_higher = ashemark_01
+				has_building_or_higher = agot_ashemark_01
 			}
 			AND = {
 				this = province:1737
@@ -385,6 +387,12 @@ walls_01_tribal = {
 				this = province:2626
 				has_building_or_higher = flint_tower_01
 			}
+			AND = {
+				this = province:940
+				has_building_or_higher = agot_deepwood_motte_01
+			}
+			this = province:1911
+			this = province:1910
 		}
 		# Nomads use custom walls
 		scope:holder = { NOT = { government_has_flag = government_is_nomadic } }
@@ -2811,16 +2819,12 @@ walls_01 = {
 				has_building_or_higher = agot_evenfall_hall_01
 			}
 			AND = {
-				this = province:940
-				has_building_or_higher = deepwood_motte_01
-			}
-			AND = {
 				this = province:5264
 				has_building_or_higher = high_hermitage_01
 			}
 			AND = {
 				this = province:3092
-				has_building_or_higher = ashemark_01
+				has_building_or_higher = agot_ashemark_01
 			}
 			AND = {
 				this = province:1737
@@ -2830,6 +2834,12 @@ walls_01 = {
 				this = province:2626
 				has_building_or_higher = flint_tower_01
 			}
+			AND = {
+				this = province:940
+				has_building_or_higher = agot_deepwood_motte_01
+			}
+			this = province:1911
+			this = province:1910
 		}
 	}
 }
@@ -5338,16 +5348,12 @@ walls_02 = {
 				has_building_or_higher = agot_evenfall_hall_01
 			}
 			AND = {
-				this = province:940
-				has_building_or_higher = deepwood_motte_01
-			}
-			AND = {
 				this = province:5264
 				has_building_or_higher = high_hermitage_01
 			}
 			AND = {
 				this = province:3092
-				has_building_or_higher = ashemark_01
+				has_building_or_higher = agot_ashemark_01
 			}
 			AND = {
 				this = province:1737
@@ -5357,6 +5363,12 @@ walls_02 = {
 				this = province:2626
 				has_building_or_higher = flint_tower_01
 			}
+			AND = {
+				this = province:940
+				has_building_or_higher = agot_deepwood_motte_01
+			}
+			this = province:1911
+			this = province:1910
 		}
 	}
 }
@@ -7840,16 +7852,12 @@ walls_03 = {
 				has_building_or_higher = agot_evenfall_hall_01
 			}
 			AND = {
-				this = province:940
-				has_building_or_higher = deepwood_motte_01
-			}
-			AND = {
 				this = province:5264
 				has_building_or_higher = high_hermitage_01
 			}
 			AND = {
 				this = province:3092
-				has_building_or_higher = ashemark_01
+				has_building_or_higher = agot_ashemark_01
 			}
 			AND = {
 				this = province:1737
@@ -7859,6 +7867,12 @@ walls_03 = {
 				this = province:2626
 				has_building_or_higher = flint_tower_01
 			}
+			AND = {
+				this = province:940
+				has_building_or_higher = agot_deepwood_motte_01
+			}
+			this = province:1911
+			this = province:1910
 		}
 	}
 }
@@ -10329,16 +10343,12 @@ walls_04 = {
 				has_building_or_higher = agot_evenfall_hall_01
 			}
 			AND = {
-				this = province:940
-				has_building_or_higher = deepwood_motte_01
-			}
-			AND = {
 				this = province:5264
 				has_building_or_higher = high_hermitage_01
 			}
 			AND = {
 				this = province:3092
-				has_building_or_higher = ashemark_01
+				has_building_or_higher = agot_ashemark_01
 			}
 			AND = {
 				this = province:1737
@@ -10348,6 +10358,12 @@ walls_04 = {
 				this = province:2626
 				has_building_or_higher = flint_tower_01
 			}
+			AND = {
+				this = province:940
+				has_building_or_higher = agot_deepwood_motte_01
+			}
+			this = province:1911
+			this = province:1910
 		}
 	}
 }
