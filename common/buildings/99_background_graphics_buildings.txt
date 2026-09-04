@@ -26,6 +26,7 @@ walls_00 = {
 			# has_building_or_higher = "roman_wall_of_lugo_01"
 			# has_building_or_higher = "kano_walls_01"
 			# has_building_or_higher = "jaisalmer_fort_01"
+			# has_building_or_higher = "temples_angkor_01" #NOTE: the model gives its own unique set of walls to Angkor
 			# Herders shouldn't have walls
 			scope:holder = {
 				government_has_flag = government_is_herder
@@ -41,6 +42,9 @@ walls_00 = {
 			empire = title:e_lands_of_long_summer
 			# empire = title:e_valyrian_freehold
 			duchy = title:d_elyria
+		}
+		NOT = {
+			agot_has_special_building_model_trigger = yes
 		}
 		NOT = {
 			this = province:2819
@@ -61,6 +65,10 @@ walls_00 = {
 		NOT = {
 			this = province:5303
 			has_building_or_higher = yronwood_01
+		}
+		NOT = {
+			this = province:5303
+			has_building_or_higher = agot_yronwood_01
 		}
 		NOT = {
 			this = province:3161
@@ -155,6 +163,10 @@ walls_00 = {
 			has_building_or_higher = ironwrath_01
 		}
 		NOT = {
+			this = province:1027
+			has_building_or_higher = agot_ironrath_01
+		}
+		NOT = {
 			this = province:1636
 			has_building_or_higher = agot_rodriks_gift_01
 		}
@@ -199,6 +211,8 @@ walls_00 = {
 walls_01_tribal = {
 	is_graphical_background = yes
 
+
+	#Base Tribal Walls:
 	#AGOT Modified
 	# asset = {
 	# 	type = pdxmesh
@@ -212,20 +226,34 @@ walls_01_tribal = {
 			"building_empty_mesh"
 		}
 	}
+	#Specific Tribal Walls:
+	#Emishi:
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_emishi_wall_01_mesh"
+		}
+		requires_dlc_flag = north_pacific_attire
+		#Emishi GFX:
+		graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+	}
 
-	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate
+	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate, Chroyane
 	asset = {
 		type = pdxmesh
 		names = {
 			"building_empty_mesh"
 		}
-		provinces = { 8 2855 2859 2263 }
+		provinces = { 8 2855 2859 2263 8999 }
 	}
 
 	is_enabled = {
 		OR = {
 			is_county_capital = yes
 			fort_level > 0
+		}
+		NOT = {
+			agot_has_special_building_model_trigger = yes
 		}
 		NOR = {
 			# disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
@@ -267,6 +295,10 @@ walls_01_tribal = {
 				this = province:5303
 				has_building_or_higher = yronwood_01
 			}	
+			AND = {
+				this = province:5303
+				has_building_or_higher = agot_yronwood_01
+			}
 			AND = {
 				this = province:3161
 				has_building_or_higher = crag_01
@@ -360,6 +392,10 @@ walls_01_tribal = {
 				has_building_or_higher = ironwrath_01
 			}
 			AND = {
+				this = province:1027
+				has_building_or_higher = agot_ironrath_01
+			}
+			AND = {
 				this = province:1636
 				has_building_or_higher = agot_rodriks_gift_01
 			}
@@ -426,7 +462,7 @@ walls_01 = {
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = the_northern_lords
-	# 	graphical_cultures = { norse_building_gfx }
+	# 	graphical_regions = { graphical_western graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	# 	names = {
 	# 		"fp1_norse_walls_01_mesh"
 	# 	}
@@ -446,7 +482,7 @@ walls_01 = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = the_fate_of_iberia
 	# 	graphical_cultures = { iberian_building_gfx }
-	# 	graphical_regions = { graphical_mediterranean }
+	# 	graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	# 	names = {
 	# 		"fp2_building_iberian_wall_01_mesh"
 	# 	}
@@ -456,18 +492,33 @@ walls_01 = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = legacy_of_persia
 	# 	graphical_cultures = { iranian_building_gfx }
-	# 	graphical_regions = { graphical_mena graphical_india graphical_steppe }
+	# 	graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	# 	names = {
 	# 		"fp3_building_persian_walls_01_a_01_mesh"
 	# 	}
 	# }
+
+
+	# #Emishi:
+	# asset = {
+	# 	type = pdxmesh
+	# 	names = {
+	# 		"building_emishi_wall_01_mesh"
+	# 	}
+	# 	requires_dlc_flag = north_pacific_attire
+	# 	#Emishi GFX:
+	# 	graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+	# 	#In all graphical regions:
+	# 	graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+	# }
+
 
 	# # TGP Southeast Asia
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = all_under_heaven
 	# 	graphical_cultures = { southeast_asian_building_gfx }
-	# 	graphical_regions = { graphical_east_asia graphical_india }
+	# 	graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
 	# 	names = {
 	# 		"tgp_building_se_asia_wall_01_mesh"
 	# 	}
@@ -513,13 +564,22 @@ walls_01 = {
 	# 	}
 	# }
 
-	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate
+	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate, Chroyane
 	asset = {
 		type = pdxmesh
 		names = {
 			"building_empty_mesh"
 		}
-		provinces = { 8 2855 2859 2263 }
+		provinces = { 8 2855 2859 2263 8999 }
+	}
+
+	#AGOT Added, The Ring
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_special_the_ring_wall_01_mesh"
+		}
+		provinces = { 3422 }
 	}
 
 	#AGOT Added, Dreadfort
@@ -2674,6 +2734,9 @@ walls_01 = {
 			has_building_or_higher = "building_moat_01"
 			has_building_or_higher = "city_walls_01"
 		}
+		NOT = {
+			agot_has_special_building_model_trigger = yes
+		}
 		NOR = {
 			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
 			has_building_or_higher = "palisades_02"
@@ -2713,6 +2776,10 @@ walls_01 = {
 			AND = {
 				this = province:5303
 				has_building_or_higher = yronwood_01
+			}	
+			AND = {
+				this = province:5303
+				has_building_or_higher = agot_yronwood_01
 			}	
 			AND = {
 				this = province:3161
@@ -2805,6 +2872,10 @@ walls_01 = {
 			AND = {
 				this = province:1027
 				has_building_or_higher = ironwrath_01
+			}
+			AND = {
+				this = province:1027
+				has_building_or_higher = agot_ironrath_01
 			}
 			AND = {
 				this = province:1636
@@ -2914,7 +2985,23 @@ walls_02 = {
 	# 		"ep3_byzantine_walls_02_mesh"
 	# 	}
 	# }
-	# # TGP Southeast Asia
+
+	
+
+	# #Emishi:
+	# asset = {
+	# 	type = pdxmesh
+	# 	names = {
+	# 		"building_emishi_wall_02_mesh"
+	# 	}
+	# 	requires_dlc_flag = north_pacific_attire
+	# 	#Emishi GFX:
+	# 	graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+	# 	#In all graphical regions:
+	# 	graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+	# } #Above Japan due to falling back to Japanese
+
+	# TGP Southeast Asia
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = all_under_heaven
@@ -2965,13 +3052,22 @@ walls_02 = {
 	# 	}
 	# }
 
-	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate
+	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate, Chroyane
 	asset = {
 		type = pdxmesh
 		names = {
 			"building_empty_mesh"
 		}
-		provinces = { 8 2855 2859 2263 }
+		provinces = { 8 2855 2859 2263 8999 }
+	}
+
+	#AGOT Added, The Ring
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_special_the_ring_wall_02_mesh"
+		}
+		provinces = { 3422 }
 	}
 
 	#AGOT Added, Dreadfort
@@ -5205,6 +5301,9 @@ walls_02 = {
 			has_building_or_higher = "building_moat_02"
 			has_building_or_higher = "city_walls_02"
 		}
+		NOT = {
+			agot_has_special_building_model_trigger = yes
+		}
 		NOR = {
 			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
 			has_building_or_higher = "curtain_walls_03"
@@ -5242,6 +5341,10 @@ walls_02 = {
 			AND = {
 				this = province:5303
 				has_building_or_higher = yronwood_01
+			}	
+			AND = {
+				this = province:5303
+				has_building_or_higher = agot_yronwood_01
 			}	
 			AND = {
 				this = province:3161
@@ -5336,6 +5439,10 @@ walls_02 = {
 				has_building_or_higher = ironwrath_01
 			}
 			AND = {
+				this = province:1027
+				has_building_or_higher = agot_ironrath_01
+			}
+			AND = {
 				this = province:1636
 				has_building_or_higher = agot_rodriks_gift_01
 			}
@@ -5413,6 +5520,19 @@ walls_03 = {
 	}
 
 	#AGOT Disabled
+	# #Emishi:
+	# asset = {
+	# 	type = pdxmesh
+	# 	names = {
+	# 		"building_emishi_wall_03_mesh"
+	# 	}
+	# 	requires_dlc_flag = north_pacific_attire
+	# 	#Emishi GFX:
+	# 	graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+	# 	#In all graphical regions:
+	# 	graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+	# }
+
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = the_fate_of_iberia
@@ -5494,13 +5614,22 @@ walls_03 = {
 	# 	}
 	# }
 
-	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate
+	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate, Chroyane
 	asset = {
 		type = pdxmesh
 		names = {
 			"building_empty_mesh"
 		}
-		provinces = { 8 2855 2859 2263 }
+		provinces = { 8 2855 2859 2263 8999 }
+	}
+
+	#AGOT Added, The Ring
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_special_the_ring_wall_03_mesh"
+		}
+		provinces = { 3422 }
 	}
 
 	#AGOT Added, Dreadfort
@@ -7708,6 +7837,9 @@ walls_03 = {
 				root = { fort_level = 3 }
 			}
 		}
+		NOT = {
+			agot_has_special_building_model_trigger = yes
+		}
 		NOR = {
 			# Disabling this level of walled graphics for holdings with special walls and other fortifications so that they always look appropriately fortified. Note: If any of these buildings are given unique 3D assets, this should be looked at again.
 			has_building_or_higher = "curtain_walls_06"
@@ -7746,6 +7878,10 @@ walls_03 = {
 			AND = {
 				this = province:5303
 				has_building_or_higher = yronwood_01
+			}	
+			AND = {
+				this = province:5303
+				has_building_or_higher = agot_yronwood_01
 			}	
 			AND = {
 				this = province:3161
@@ -7840,6 +7976,10 @@ walls_03 = {
 				has_building_or_higher = ironwrath_01
 			}
 			AND = {
+				this = province:1027
+				has_building_or_higher = agot_ironrath_01
+			}
+			AND = {
 				this = province:1636
 				has_building_or_higher = agot_rodriks_gift_01
 			}
@@ -7917,6 +8057,18 @@ walls_04 = {
 	}
 
 	#AGOT Disabled
+	# asset = {
+	# 	type = pdxmesh
+	# 	names = {
+	# 		"building_emishi_wall_04_mesh"
+	# 	}
+	# 	requires_dlc_flag = north_pacific_attire
+	# 	#Emishi GFX:
+	# 	graphical_cultures = { emishi_building_gfx amuric_building_gfx }
+	# 	#In all graphical regions:
+	# 	graphical_regions = { graphical_western graphical_mena graphical_india graphical_mediterranean graphical_steppe graphical_east_asia graphical_siberia }
+	# }
+
 	# asset = {
 	# 	type = pdxmesh
 	# 	requires_dlc_flag = the_fate_of_iberia
@@ -7997,13 +8149,22 @@ walls_04 = {
 	# 	}
 	# }
 
-	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate
+	#AGOT Added, Shadow Tower, Casterly Rock, Bloody Gate, Chroyane
 	asset = {
 		type = pdxmesh
 		names = {
 			"building_empty_mesh"
 		}
-		provinces = { 8 2855 2859 2263 }
+		provinces = { 8 2855 2859 2263 8999 }
+	}
+
+	#AGOT Added, The Ring
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_special_the_ring_wall_04_mesh"
+		}
+		provinces = { 3422 }
 	}
 
 	#AGOT Added, Hammerhorn
@@ -10217,6 +10378,10 @@ walls_04 = {
 				root = { fort_level >= 4 }
 			}
 		}
+		#AGOT Added
+		NOT = {
+			agot_has_special_building_model_trigger = yes
+		}
 		NOR = {
 			AND = {
 				this = province:2819
@@ -10238,6 +10403,10 @@ walls_04 = {
 				this = province:5303
 				has_building_or_higher = yronwood_01
 			}	
+			AND = {
+				this = province:5303
+				has_building_or_higher = agot_yronwood_01
+			}
 			AND = {
 				this = province:3161
 				has_building_or_higher = crag_01
@@ -10329,6 +10498,10 @@ walls_04 = {
 			AND = {
 				this = province:1027
 				has_building_or_higher = ironwrath_01
+			}
+			AND = {
+				this = province:1027
+				has_building_or_higher = agot_ironrath_01
 			}
 			AND = {
 				this = province:1636
